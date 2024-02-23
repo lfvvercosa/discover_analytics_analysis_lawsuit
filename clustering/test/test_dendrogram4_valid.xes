@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<string key="concept:name" value="test_dendrogram4_valid.xes" />
+	<trace>
+		<string key="concept:name" value="1" />
+		<event>
+			<string key="concept:name" value="Ga" />
+			<date key="time:timestamp" value="2018-07-21T14:17:58+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ga" />
+			<date key="time:timestamp" value="2018-07-22T14:17:58+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ba" />
+			<date key="time:timestamp" value="2018-07-23T14:17:58+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Da" />
+			<date key="time:timestamp" value="2018-07-24T14:17:58+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Fb" />
+			<date key="time:timestamp" value="2018-07-25T14:17:58+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Aa" />
+			<date key="time:timestamp" value="2018-07-26T14:17:58+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2" />
+		<event>
+			<string key="concept:name" value="Ga" />
+			<date key="time:timestamp" value="2018-07-27T14:17:58+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ga" />
+			<date key="time:timestamp" value="2018-07-28T14:17:58+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ba" />
+			<date key="time:timestamp" value="2018-07-29T14:17:58+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Da" />
+			<date key="time:timestamp" value="2018-07-30T14:17:58+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Fb" />
+			<date key="time:timestamp" value="2018-07-31T14:17:58+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Aa" />
+			<date key="time:timestamp" value="2018-08-01T14:17:58+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3" />
+		<event>
+			<string key="concept:name" value="Aa" />
+			<date key="time:timestamp" value="2018-08-02T14:17:58+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ba" />
+			<date key="time:timestamp" value="2018-08-03T14:17:58+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ha" />
+			<date key="time:timestamp" value="2018-08-04T14:17:58+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ea" />
+			<date key="time:timestamp" value="2018-08-05T14:17:58+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ca" />
+			<date key="time:timestamp" value="2018-08-06T14:17:58+02:00" />
+		</event>
+	</trace>
+</log>

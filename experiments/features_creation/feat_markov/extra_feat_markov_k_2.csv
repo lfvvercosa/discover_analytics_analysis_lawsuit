@@ -1,0 +1,113 @@
+EVENT_LOG	DISCOVERY_ALG	ABS_EDGES_ONLY_IN_MODEL_W_2	DIST_NODES_PERCENT	DIST_EDGES_PERCENT
+Production_Data.xes.gz	IMf	0.1083	0.7553	0.9326
+Production_Data.xes.gz	IMd	0.0494	0.7176	0.9724
+4a_VARA_DE_SUCESSOES_E_REGISTROS_PUBLICOS_DA_CAPITAL_-_TJPE.xes	IMf	0.3723	0.6449	0.7738
+4a_VARA_DE_SUCESSOES_E_REGISTROS_PUBLICOS_DA_CAPITAL_-_TJPE.xes	IMd	0.089	0.6728	0.9493
+4a_VARA_DE_SUCESSOES_E_REGISTROS_PUBLICOS_DA_CAPITAL_-_TJPE.xes	ETM	0.9207	0.629	0.7525
+edited_hh104_labour.xes.gz	IMd	0.0831	0.384	0.9295
+3a_VARA_DE_EXECUCOES_FISCAIS_DA_COMARCA_DE_FORTALEZA_-_TJCE.xes	IMf	0.5148	0.8296	0.8605
+3a_VARA_DE_EXECUCOES_FISCAIS_DA_COMARCA_DE_FORTALEZA_-_TJCE.xes	IMd	0.235	0.8272	0.9205
+activitylog_uci_detailed_labour.xes.gz	IMf	0.323	0.5161	0.7636
+activitylog_uci_detailed_labour.xes.gz	IMd	0.0858	0.5861	0.9434
+activitylog_uci_detailed_labour.xes.gz	ETM	0.8974	0.5664	0.7066
+activitylog_uci_detailed_weekends.xes.gz	IMf	0.3211	0.5222	0.7631
+activitylog_uci_detailed_weekends.xes.gz	IMd	0.0713	0.6416	0.9491
+activitylog_uci_detailed_weekends.xes.gz	ETM	0.7841	0.5238	0.7229
+edited_hh102_labour.xes.gz	IMf	0.2054	0.5909	0.8501
+edited_hh102_labour.xes.gz	IMd	0.059	0.5966	0.9545
+VITORIA_-_5a_VARA_CIVEL_-_TJES.xes	IMf	0.5646	0.7788	0.8468
+VITORIA_-_5a_VARA_CIVEL_-_TJES.xes	IMd	0.1057	0.7122	0.9607
+VITORIA_-_5a_VARA_CIVEL_-_TJES.xes	ETM	0.9723	0.9138	0.9506
+3a_VARA_DE_FAMILIA_E_REGISTRO_CIVIL_DA_COMARCA_DE_OLINDA_-_TJPE.xes	IMf	0.3743	0.5106	0.7537
+3a_VARA_DE_FAMILIA_E_REGISTRO_CIVIL_DA_COMARCA_DE_OLINDA_-_TJPE.xes	IMd	0.094	0.713	0.942
+3a_VARA_DE_FAMILIA_E_REGISTRO_CIVIL_DA_COMARCA_DE_OLINDA_-_TJPE.xes	ETM	0.9685	0.5946	0.6567
+PRIMEIRA_VARA_CRIMINAL_-_COMARCA_DE_VARZEA_GRANDE_-_SDCR_-_TJMT.xes	IMf	0.8011	0.906	0.9172
+PRIMEIRA_VARA_CRIMINAL_-_COMARCA_DE_VARZEA_GRANDE_-_SDCR_-_TJMT.xes	IMd	0.2116	0.6844	0.9214
+BPI_Challenge_2014_Control summary.xes.gz	IMf	0.938	0.3333	0.5
+BPI_Challenge_2014_Control summary.xes.gz	IMd	0.775	0.36	0.5844
+BPI_Challenge_2014_Control summary.xes.gz	ETM	0.6199	0.4762	0.6383
+BPI_Challenge_2014_Department control parcels.xes.gz	IMf	1.0	0.64	0.6833
+BPI_Challenge_2014_Department control parcels.xes.gz	IMd	0.9053	0.3462	0.4189
+BPI_Challenge_2014_Department control parcels.xes.gz	ETM	0.7233	0.5	0.5833
+ElectronicInvoicingENG.xes.gz	IMf	0.5696	0.1429	0.5128
+ElectronicInvoicingENG.xes.gz	IMd	0.1254	0.6042	0.8765
+ElectronicInvoicingENG.xes.gz	ETM	0.859	0.0952	0.3103
+4a_VARA_CIVEL_-_TJGO.xes	IMf	0.5241	0.6404	0.744
+4a_VARA_CIVEL_-_TJGO.xes	IMd	0.4105	0.6495	0.8079
+4a_VARA_CIVEL_-_TJGO.xes	ETM	0.3481	0.5566	0.7784
+VARA_DA_FAZENDA_PUBLICA_DA_COMARCA_DE_PAULISTA_-_TJPE.xes	IMf	0.422	0.803	0.8392
+VARA_DA_FAZENDA_PUBLICA_DA_COMARCA_DE_PAULISTA_-_TJPE.xes	ETM	0.8186	0.7752	0.88
+BPI_Challenge_2014_Entitlement application.xes.gz	IMf	0.257	0.5431	0.833
+BPI_Challenge_2014_Entitlement application.xes.gz	IMd	0.181	0.5714	0.8806
+BPI_Challenge_2014_Entitlement application.xes.gz	ETM	0.8326	0.8313	0.9237
+BPI_Challenge_2014_Inspection.xes.gz	IMf	0.4088	0.581	0.83
+BPI_Challenge_2014_Inspection.xes.gz	IMd	0.2129	0.6649	0.9291
+BPI_Challenge_2014_Inspection.xes.gz	ETM	1.0	0.7632	0.8844
+BPI_Challenge_2014_Geo parcel document.xes.gz	IMf	0.5437	0.525	0.6995
+BPI_Challenge_2014_Geo parcel document.xes.gz	IMd	0.3536	0.4429	0.7859
+BPI_Challenge_2014_Geo parcel document.xes.gz	ETM	0.9195	0.8394	0.9118
+BPI_Challenge_2012.xes.gz	IMf	0.2205	0.6737	0.8685
+BPI_Challenge_2012.xes.gz	IMd	0.1688	0.6747	0.8837
+BPI_Challenge_2012.xes.gz	ETM			
+edited_hh110_weekends.xes.gz	IMd	0.0677	0.6386	0.9461
+3a_VARA_DE_FEITOS_TRIBUTARIOS_DO_ESTADO_-_TJMG.xes	IMd	0.1112	0.701	0.9462
+3a_VARA_DE_FEITOS_TRIBUTARIOS_DO_ESTADO_-_TJMG.xes	ETM	0.9022	0.7939	0.8891
+BPI_Challenge_2020_InternationalDeclarations.xes.gz	IMf	0.0794	0.7289	0.9351
+BPI_Challenge_2020_InternationalDeclarations.xes.gz	IMd	0.0262	0.8155	0.9836
+BPI_Challenge_2020_InternationalDeclarations.xes.gz	ETM	0.5551	0.7991	0.8897
+DocumentProcessingENG.xes.gz	IMf	0.5444	0.1818	0.5263
+DocumentProcessingENG.xes.gz	IMd	0.1081	0.64	0.8947
+DocumentProcessingENG.xes.gz	ETM	0.7841	0.087	0.3226
+edited_hh110_labour.xes.gz	IMf	0.256	0.5963	0.8118
+edited_hh110_labour.xes.gz	IMd	0.0638	0.6078	0.9526
+1a_VARA_DE_FEITOS_TRIBUTARIOS_DO_ESTADO_-_TJMG.xes	IMd	0.1267	0.6716	0.9426
+1a_VARA_DE_FEITOS_TRIBUTARIOS_DO_ESTADO_-_TJMG.xes	ETM	0.9795	0.799	0.8697
+QUARTA_VARA_CRIMINAL_-_COMARCA_DE_VARZEA_GRANDE_-_SDCR_-_TJMT.xes	IMf	0.7066	0.9084	0.9332
+edited_hh104_weekends.xes.gz	IMf	0.3173	0.7663	0.859
+edited_hh104_weekends.xes.gz	IMd	0.093	0.3978	0.9194
+edited_hh104_weekends.xes.gz	ETM	0.8265	0.6848	0.7817
+1a_VARA_CRIMINAL_DA_CAPITAL_-_TJAM.xes	IMf	0.6094	0.866	0.9063
+1a_VARA_CRIMINAL_DA_CAPITAL_-_TJAM.xes	IMd	0.1383	0.7241	0.9641
+1a_VARA_CRIMINAL_DA_CAPITAL_-_TJAM.xes	ETM	0.9032	0.8759	0.9428
+2A._VARA_DE_EXECUTIVO_FISCAL_JOAO_PESSOA_-_TJPB.xes	IMf	0.2429	0.4321	0.8224
+2A._VARA_DE_EXECUTIVO_FISCAL_JOAO_PESSOA_-_TJPB.xes	IMd	0.1835	0.5398	0.8862
+2A._VARA_DE_EXECUTIVO_FISCAL_JOAO_PESSOA_-_TJPB.xes	ETM	0.9263	0.8648	0.9473
+VARA_DE_SUCESSOES_DE_CAMPINA_GRANDE_-_TJPB.xes	IMd	0.077	0.6864	0.963
+VARA_DE_SUCESSOES_DE_CAMPINA_GRANDE_-_TJPB.xes	ETM	0.9719	0.7944	0.8662
+BPI_Challenge_2020_PrepaidTravelCost.xes.gz	IMd	0.1062	0.7541	0.9318
+BPI_Challenge_2020_PrepaidTravelCost.xes.gz	ETM	0.5797	0.8691	0.9162
+JUIZO_DA_1a_ESCRIVANIA_CRIMINAL_DE_ARAPOEMA_-_TJTO.xes	IMd	0.0755	0.682	0.9546
+JUIZO_DA_1a_ESCRIVANIA_CRIMINAL_DE_ARAPOEMA_-_TJTO.xes	ETM	0.8831	0.8856	0.9469
+BPI_Challenge_2014_Reference alignment.xes.gz	IMf	0.8348	0.4167	0.541
+BPI_Challenge_2014_Reference alignment.xes.gz	IMd	0.8036	0.28	0.4557
+BPI_Challenge_2014_Reference alignment.xes.gz	ETM	0.5032	0.5185	0.7162
+Hospital Billing - Event Log.xes.gz	IMf	0.2864	0.5414	0.7764
+Hospital Billing - Event Log.xes.gz	IMd	0.2051	0.4115	0.8317
+Hospital Billing - Event Log.xes.gz	ETM	0.2239	0.8	0.8927
+COLOMBO_-_VARA_DA_FAZENDA_PUBLICA_-_TJPR.xes	IMf	0.1563	0.6803	0.9176
+COLOMBO_-_VARA_DA_FAZENDA_PUBLICA_-_TJPR.xes	IMd	0.1071	0.702	0.9471
+COLOMBO_-_VARA_DA_FAZENDA_PUBLICA_-_TJPR.xes	ETM	0.8363	0.7615	0.8686
+Road_Traffic_Fine_Management_Process.xes.gz	IMf	0.2807	0.3592	0.7187
+Road_Traffic_Fine_Management_Process.xes.gz	IMd	0.2929	0.3578	0.7988
+Road_Traffic_Fine_Management_Process.xes.gz	ETM	0.7559	0.7805	0.8644
+BPI_Challenge_2020_PermitLog.xes.gz	ETM	0.5734	0.9162	0.9633
+BPI_Challenge_2019_log_IEEE.xes.gz	IMd	0.1947	0.5685	0.8902
+BPI_Challenge_2019_log_IEEE.xes.gz	ETM	0.9836	0.9703	0.9929
+Sepsis Cases - Event Log.xes.gz	IMf	0.5404	0.6471	0.786
+Sepsis Cases - Event Log.xes.gz	IMd	0.1933	0.5073	0.8809
+Sepsis Cases - Event Log.xes.gz	ETM	0.8706	0.6835	0.807
+BPI_Challenge_2013_open_problems.xes.gz	IMf	1.0	0.1538	0.1765
+BPI_Challenge_2013_open_problems.xes.gz	IMd	0.7497	0.1875	0.4074
+BPI_Challenge_2013_open_problems.xes.gz	ETM			
+BPI_Challenge_2013_incidents.xes.gz	IMf	0.9533	0.3333	0.451
+BPI_Challenge_2013_incidents.xes.gz	IMd	0.632	0.32	0.5514
+BPI_Challenge_2013_incidents.xes.gz	ETM			
+BPI Challenge 2017.xes.gz	IMd	0.0933	0.6714	0.9438
+BPI Challenge 2017.xes.gz	ETM	0.8011	0.8103	0.912
+BPI_Challenge_2020_DomesticDeclarations.xes.gz	IMf	0.2402	0.6438	0.79
+BPI_Challenge_2020_DomesticDeclarations.xes.gz	IMd	0.0939	0.7328	0.9213
+BPI_Challenge_2020_DomesticDeclarations.xes.gz	ETM	0.3193	0.6719	0.8406
+5a_VARA_CIVEL_-_TJMT.xes	IMd	0.2625	0.7939	0.9101
+5a_VARA_CIVEL_-_TJMT.xes	ETM	0.7766	0.82	0.895
+VARA_DE_SUCESSOES_E_REGISTROS_PUBLICOS_DA_COMARCA_DE_JABOATAO_DOS_GUARARAPES_-_TJPE.xes	IMf	0.4784	0.8092	0.8555
+VARA_DE_SUCESSOES_E_REGISTROS_PUBLICOS_DA_COMARCA_DE_JABOATAO_DOS_GUARARAPES_-_TJPE.xes	ETM	0.9283	0.6967	0.751

@@ -1,0 +1,2 @@
+MARKOV1 PRECISION,SVR,,,,,,Linear Regression,,,,,,MLP,,,,,,RFR,,,,,,XGB,,,,,
+x,spearman mean,spearman std,MAE mean,MAE std,r2_score mean,r2_score std,spearman mean,spearman std,MAE mean,MAE std,r2_score mean,r2_score std,spearman mean,spearman std,MAE mean,MAE std,r2_score mean,r2_score std,spearman mean,spearman std,MAE mean,MAE std,r2_score mean,r2_score std,spearman mean,spearman std,MAE mean,MAE std,r2_score mean,r2_score std

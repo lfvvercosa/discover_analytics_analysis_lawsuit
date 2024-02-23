@@ -1,0 +1,33 @@
+best_fit: 0.2961070796460177
+
+best_ARI: 0.1624180459313587
+
+best_complex: 303.908685840708
+
+best_n_clusters: 11
+
+best_df_distrib_1step:        P1  P2  P3
+index            
+0       4  15  19
+1       7   0   6
+2      20   0   2
+3       0   2   0
+4       0   0   9
+5       0   8   0
+6       0   1   0
+7       0   1   0
+8       0   7   0
+9       0  11   0
+10      0   1   0
+
+best_ngram_1step: 2
+
+best_min_percent_1step: 0.2
+
+best_max_percent_1step: 0.8
+
+best_df_distrib_2step:    P2  P1  P3
+0  15  31  36
+1  23   0   0
+2   8   0   0
+

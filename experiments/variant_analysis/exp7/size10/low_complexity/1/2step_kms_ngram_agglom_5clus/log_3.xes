@@ -1,0 +1,1769 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="2_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:46:50" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:46:51" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:46:52" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:46:53" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:46:54" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:46:58" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:46:59" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:47:00" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:47:01" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:47:02" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:47:03" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:47:04" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:47:05" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:47:06" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:47:07" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="6_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:47:08" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="I" />
+			<date key="time:timestamp" value="1972-04-25T14:47:09" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="J" />
+			<date key="time:timestamp" value="1972-04-25T14:47:10" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:47:11" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:47:12" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:47:13" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:47:14" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="7_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:47:15" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:47:16" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:47:17" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:47:18" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:47:19" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:47:20" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="8_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:47:21" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="I" />
+			<date key="time:timestamp" value="1972-04-25T14:47:22" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="J" />
+			<date key="time:timestamp" value="1972-04-25T14:47:23" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:47:24" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:47:25" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:47:26" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:47:27" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="9_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:47:28" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:47:29" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:47:30" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:47:31" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:47:32" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="11_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:47:38" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="I" />
+			<date key="time:timestamp" value="1972-04-25T14:47:39" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="J" />
+			<date key="time:timestamp" value="1972-04-25T14:47:40" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:47:41" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:47:42" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:47:43" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="12_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:47:44" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:47:45" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:47:46" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:47:47" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:47:48" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="15_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:47:56" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:47:57" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:47:58" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:47:59" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:48:00" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:48:01" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="16_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:48:02" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:48:03" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:48:04" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:48:05" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:48:06" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:48:07" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="18_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:48:11" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:48:12" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:48:13" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:48:14" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:48:15" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="19_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:48:16" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:48:17" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:48:18" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:48:19" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:48:20" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="20_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:48:21" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="I" />
+			<date key="time:timestamp" value="1972-04-25T14:48:22" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="J" />
+			<date key="time:timestamp" value="1972-04-25T14:48:23" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:48:24" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:48:25" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:48:26" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="23_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:48:35" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:48:36" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:48:37" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:48:38" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="25_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:48:42" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="I" />
+			<date key="time:timestamp" value="1972-04-25T14:48:43" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="J" />
+			<date key="time:timestamp" value="1972-04-25T14:48:44" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:48:45" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:48:46" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:48:47" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:48:48" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="27_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:48:52" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:48:53" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:48:54" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:48:55" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="28_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:48:56" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="I" />
+			<date key="time:timestamp" value="1972-04-25T14:48:57" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="J" />
+			<date key="time:timestamp" value="1972-04-25T14:48:58" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:48:59" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:49:00" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:49:01" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="30_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:49:07" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:49:08" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:49:09" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:49:10" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:49:11" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:49:12" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="32_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:49:18" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:49:19" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:49:20" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:49:21" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:49:22" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:49:23" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="33_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:49:24" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="I" />
+			<date key="time:timestamp" value="1972-04-25T14:49:25" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="J" />
+			<date key="time:timestamp" value="1972-04-25T14:49:26" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:49:27" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:49:28" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:49:29" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:49:30" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="34_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:49:31" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:49:32" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:49:33" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:49:34" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="37_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:49:43" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:49:44" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:49:45" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:49:46" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="38_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:49:47" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:49:48" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:49:49" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:49:50" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="40_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:49:56" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:49:57" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:49:58" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:49:59" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:50:00" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="41_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:50:01" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:50:02" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:50:03" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:50:04" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="42_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:50:05" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="I" />
+			<date key="time:timestamp" value="1972-04-25T14:50:06" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="J" />
+			<date key="time:timestamp" value="1972-04-25T14:50:07" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:50:08" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:50:09" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:50:10" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:50:11" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="43_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:50:12" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="I" />
+			<date key="time:timestamp" value="1972-04-25T14:50:13" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="J" />
+			<date key="time:timestamp" value="1972-04-25T14:50:14" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:50:15" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:50:16" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:50:17" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:50:18" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="49_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:50:38" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="I" />
+			<date key="time:timestamp" value="1972-04-25T14:50:39" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="J" />
+			<date key="time:timestamp" value="1972-04-25T14:50:40" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:50:41" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:50:42" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:50:43" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:50:44" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="51_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:50:49" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:50:50" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:50:51" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:50:52" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:50:53" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="52_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:50:54" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="I" />
+			<date key="time:timestamp" value="1972-04-25T14:50:55" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="J" />
+			<date key="time:timestamp" value="1972-04-25T14:50:56" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:50:57" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:50:58" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:50:59" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="53_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:51:00" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="I" />
+			<date key="time:timestamp" value="1972-04-25T14:51:01" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="J" />
+			<date key="time:timestamp" value="1972-04-25T14:51:02" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:51:03" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:51:04" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:51:05" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:51:06" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="54_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:51:07" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:51:08" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:51:09" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:51:10" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="56_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:51:15" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:51:16" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:51:17" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:51:18" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="67_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:51:58" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:51:59" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:52:00" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:52:01" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="68_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:52:02" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:52:03" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:52:04" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:52:05" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="70_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:52:11" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="I" />
+			<date key="time:timestamp" value="1972-04-25T14:52:12" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="J" />
+			<date key="time:timestamp" value="1972-04-25T14:52:13" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:52:14" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:52:15" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:52:16" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="71_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:52:17" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:52:18" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:52:19" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:52:20" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:52:21" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:52:22" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="72_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:52:23" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:52:24" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:52:25" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:52:26" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:52:27" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="75_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:52:37" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:52:38" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:52:39" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:52:40" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:52:41" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="76_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:52:42" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:52:43" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:52:44" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:52:45" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:52:46" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="77_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:52:47" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="I" />
+			<date key="time:timestamp" value="1972-04-25T14:52:48" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="J" />
+			<date key="time:timestamp" value="1972-04-25T14:52:49" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:52:50" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:52:51" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:52:52" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:52:53" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="78_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:52:54" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:52:55" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:52:56" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:52:57" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="79_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:52:58" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:52:59" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:53:00" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:53:01" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:53:02" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:53:03" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="80_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:53:04" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:53:05" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:53:06" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:53:07" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:53:08" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="81_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:53:09" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:53:10" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:53:11" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:53:12" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:53:13" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="83_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:53:18" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="I" />
+			<date key="time:timestamp" value="1972-04-25T14:53:19" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="J" />
+			<date key="time:timestamp" value="1972-04-25T14:53:20" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:53:21" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:53:22" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:53:23" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="85_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:53:28" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:53:29" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:53:30" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:53:31" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:53:32" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:53:33" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="86_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:53:34" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="I" />
+			<date key="time:timestamp" value="1972-04-25T14:53:35" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="J" />
+			<date key="time:timestamp" value="1972-04-25T14:53:36" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:53:37" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:53:38" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:53:39" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="87_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:53:40" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:53:41" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:53:42" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:53:43" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:53:44" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="90_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:53:54" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:53:55" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:53:56" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:53:57" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="91_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:53:58" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:53:59" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:54:00" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:54:01" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:54:02" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:54:03" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="92_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:54:04" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:54:05" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:54:06" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:54:07" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="96_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:54:21" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:54:22" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:54:23" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:54:24" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:54:25" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:54:26" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="97_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:54:27" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:54:28" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:54:29" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="1972-04-25T14:54:30" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="98_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:54:31" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:54:32" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:54:33" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:54:34" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:54:35" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="99_P2" />
+		<string key="cluster" value="P2" />
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="1972-04-25T14:54:36" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="1972-04-25T14:54:37" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="H" />
+			<date key="time:timestamp" value="1972-04-25T14:54:38" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:54:39" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="1972-04-25T14:54:40" />
+			<int key="cluster_label" value="0" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="1972-04-25T14:54:41" />
+			<int key="cluster_label" value="0" />
+		</event>
+	</trace>
+</log>

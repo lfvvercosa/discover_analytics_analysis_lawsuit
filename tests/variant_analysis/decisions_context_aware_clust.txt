@@ -1,0 +1,12 @@
+
+########## Decisions ##########
+
+- What value for substitution score if M(a,b) is zero
+	* Decide to be the most negative value based on others negative values
+
+- What decision to make when symbols are at the end or at the beginning? Ex: AZBF, insertion of 'F' given 'B'
+  is not captured by 3gram
+  	* Decide to consider the end and beginning as a special kind of 3gram, Ex: BF-
+
+- What value for any abscent score
+	* Decide to be the smalest value based on other values from the matrix

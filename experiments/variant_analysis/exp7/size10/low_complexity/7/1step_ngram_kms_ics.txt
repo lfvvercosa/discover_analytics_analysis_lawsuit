@@ -1,0 +1,30 @@
+Adjusted Rand Score (ARI): -0.09503239740820735
+
+df_distrib: 
+
+V-measure (Vm): 0.069145334535598
+
+best_clusters: 3
+
+best_ngram: 1
+
+best_min_percents: 0.1
+
+best_max_percents: 0.7
+
+best df_distrib: 
+
+       P1  P2  P3
+index            
+0       0   1   1
+1       2   4   1
+2       1   2   1
+
+dict_var: 
+
+{1: ['BCFED', 'BCFEH', 'BD', 'BE', 'BF', 'BH', 'FD'], 2: ['BJ', 'BJG', 'GA', 'GIJA'], 0: ['CI', 'IC']}
+
+dict_gd: 
+
+{1: {'G1': ['BCFED', 'BCFEH'], 'G2': ['BD', 'BE', 'BF', 'BH'], 'G3': ['FD']}, 2: {'G2': ['BJ', 'GA'], 'G3': ['BJG'], 'G1': ['GIJA']}, 0: {'G3': ['CI'], 'G2': ['IC']}}
+

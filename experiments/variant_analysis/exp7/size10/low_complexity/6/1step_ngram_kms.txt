@@ -1,0 +1,30 @@
+Adjusted Rand Score (ARI): 0.15781129341980277
+
+df_distrib: 
+
+V-measure (Vm): 0.32569183794222056
+
+best_clusters: 3
+
+best_ngram: 2
+
+best_min_percents: 0
+
+best_max_percents: 1
+
+best df_distrib: 
+
+       P1  P2  P3
+index            
+0       0   2  12
+1       3   7  11
+2       5   0   0
+
+dict_var: 
+
+{1: ['ABD', 'ABEJ', 'ABHFI', 'BCGA', 'BCGJ', 'BFGA', 'BFGJ', 'BHGA', 'BHGJ', 'CBD', 'CBHFI', 'DCGJ', 'DEAF', 'DFGA', 'DFGJ', 'DHCAF', 'DHCAG', 'DHGA', 'DHGJ', 'GBD', 'GBHFI'], 0: ['BCIEA', 'BCIEJ', 'BFIEA', 'BFIEJ', 'BHIEA', 'BHIEJ', 'CBEJ', 'DCIEA', 'DCIEJ', 'DFIEA', 'DFIEJ', 'DHIEA', 'DHIEJ', 'GBEJ'], 2: ['DEAG', 'IBJEAF', 'IBJEAG', 'IBJHCAF', 'IBJHCAG']}
+
+dict_gd: 
+
+{1: {'G2': ['ABD', 'ABEJ', 'ABHFI', 'CBD', 'CBHFI', 'GBD', 'GBHFI'], 'G3': ['BCGA', 'BCGJ', 'BFGA', 'BFGJ', 'BHGA', 'BHGJ', 'DCGJ', 'DFGA', 'DFGJ', 'DHGA', 'DHGJ'], 'G1': ['DEAF', 'DHCAF', 'DHCAG']}, 0: {'G3': ['BCIEA', 'BCIEJ', 'BFIEA', 'BFIEJ', 'BHIEA', 'BHIEJ', 'DCIEA', 'DCIEJ', 'DFIEA', 'DFIEJ', 'DHIEA', 'DHIEJ'], 'G2': ['CBEJ', 'GBEJ']}, 2: {'G1': ['DEAG', 'IBJEAF', 'IBJEAG', 'IBJHCAF', 'IBJHCAG']}}
+

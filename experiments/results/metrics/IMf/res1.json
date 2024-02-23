@@ -1,0 +1,92 @@
+[
+    {
+        "event_log": "VITORIA_-_5a_VARA_CIVEL_-_TJES.xes",
+        "algorithm": "IMf",
+        "precision_alignment": 0.322,
+        "fitness_alignment": 0.7888,
+        "precision_time": 280.6042,
+        "fitness_time": 861.2144,
+        "total_variants_log": 206
+    },
+    {
+        "event_log": "Receipt phase of an environmental permit application process (_WABO_) CoSeLoG project.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.3763,
+        "fitness_alignment": 0.869,
+        "precision_time": 7.07,
+        "fitness_time": 45.6772,
+        "total_variants_log": 116
+    },
+    {
+        "event_log": "Production_Data.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.3595,
+        "fitness_alignment": 0.627,
+        "precision_time": 172.5033,
+        "fitness_time": 4254.3364,
+        "total_variants_log": 221
+    },
+    {
+        "event_log": "activitylog_uci_detailed_weekends.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.2893,
+        "fitness_alignment": 0.7513,
+        "precision_time": 2.1302,
+        "fitness_time": 5.8441,
+        "total_variants_log": 10
+    },
+    {
+        "event_log": "3a_VARA_DE_FAMILIA_E_REGISTRO_CIVIL_DA_COMARCA_DE_OLINDA_-_TJPE.xes",
+        "algorithm": "IMf",
+        "precision_alignment": 0.3027,
+        "fitness_alignment": 0.6655,
+        "precision_time": 0.5268,
+        "fitness_time": 2.096,
+        "total_variants_log": 33
+    },
+    {
+        "event_log": "4a_VARA_DE_SUCESSOES_E_REGISTROS_PUBLICOS_DA_CAPITAL_-_TJPE.xes",
+        "algorithm": "IMf",
+        "precision_alignment": 0.2203,
+        "fitness_alignment": 0.8834,
+        "precision_time": 23.846,
+        "fitness_time": 69.6757,
+        "total_variants_log": 36
+    },
+    {
+        "event_log": "edited_hh104_labour.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.3136,
+        "fitness_alignment": 0.4603,
+        "precision_time": 46.7063,
+        "fitness_time": 3364.8103,
+        "total_variants_log": 43
+    },
+    {
+        "event_log": "activitylog_uci_detailed_labour.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.3347,
+        "fitness_alignment": 0.7842,
+        "precision_time": 19.3401,
+        "fitness_time": 261.446,
+        "total_variants_log": 25
+    },
+    {
+        "event_log": "edited_hh102_labour.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.2609,
+        "fitness_alignment": 0.7831,
+        "precision_time": 6.5025,
+        "fitness_time": 98.0555,
+        "total_variants_log": 18
+    },
+    {
+        "event_log": "3a_VARA_DE_EXECUCOES_FISCAIS_DA_COMARCA_DE_FORTALEZA_-_TJCE.xes",
+        "algorithm": "IMf",
+        "precision_alignment": 0.3818,
+        "fitness_alignment": 0.4891,
+        "precision_time": 0.8812,
+        "fitness_time": 1.3884,
+        "total_variants_log": 53
+    }
+]

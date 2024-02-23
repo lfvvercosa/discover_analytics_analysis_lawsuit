@@ -1,0 +1,12 @@
+Técnica	Clusterização 1	Clusterização 2	ARI	Vm	Tempo (s)
+3	Kmeans + ngram	-	0.729	0.86	~ 10²
+4	DBScan + w-levenshtein	-	0.718	0.711	~ 10³
+5	-	Aglom + levenshtein	0.694	0.773	~ 10
+10	Kmeans + ngram	Aglom + cross-fitness	0.652	0.719	~ 10²
+6	-	Aglom + ngram	0.619	0.785	~ 10²
+2	DBScan + ngram	-	0.532	0.684	~ 10²
+8	DBScan + ngram	Aglom + cross-fitness	0.516	0.618	~ 10⁴
+7	-	Aglom + cross-fitness	0.502	0.605	~ 10⁵
+9	DBScan + levenshtein	Aglom + cross-fitness	0.393	0.571	~ 10³
+1	DBScan + levenshtein	-	0.375	0.548	~ 10
+11	DBScan + w-levenshtein	Aglom + cross-fitness	0.389	0.597	~ 10³

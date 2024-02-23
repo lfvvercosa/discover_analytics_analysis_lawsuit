@@ -1,0 +1,33 @@
+Adjusted Rand Score (ARI): 0.36880911194482513
+
+df_distrib: 
+
+       P1V2  P1V4  P1V5  P1V6  P1V7  P1V8
+index                                    
+0         6     0     0     0     6     6
+1         6     0     0     0     0     6
+2         0     0     3     0     0     0
+3         0     0     5     0     0     0
+4         0     1     0     0     0     0
+5         0     0     0     1     0     0
+6         0     1     0     0     0     0
+7         0     1     0     0     0     0
+8         0     1     0     1     0     0
+
+dict_var: 
+
+{
+0: ['ABCDE', 'ABCED', 'ABDCE', 'ACBDE', 'ACBED', 'ACEBD', 'ADCEB', 'ADEBC', 'ADECB', 'AEBDC', 'AEDBC', 'AEDCB', 'CABE', 'CABED', 'CAEB', 'CAEBD', 'CBAE', 'CBAED'], 
+1: ['ABCDEF', 'ABCEDF', 'ABDCEF', 'ACBDEF', 'ACBEDF', 'ACEBDF', 'ADCEBF', 'ADEBCF', 'ADECBF', 'AEBDCF', 'AEDBCF', 'AEDCBF'], 
+2: ['ABD', 'ABDBD', 'ABDBDBD'], 
+3: ['ABDBDBDBDBDF', 'ABDBDBDBDF', 'ABDBDBDF', 'ABDBDF', 'ABDF'], 
+4: ['AZB'], 
+5: ['AZBEF'], 
+6: ['AZBF'], 
+7: ['AZC'], 
+8: ['AZCDF', 'AZCF']}
+
+dend: 
+
+[([6], [5], 0.775), ([1], [0], 0.7117), ([2], [3], 0.7083), ([4], [6, 5], 0.5244), ([7], [8], 0.5172), ([1, 0], [2, 3], 0.2587), ([7, 8], [4, 6, 5], 0.2481), ([1, 0, 2, 3], [7, 8, 4, 6, 5], 0.2591)]
+

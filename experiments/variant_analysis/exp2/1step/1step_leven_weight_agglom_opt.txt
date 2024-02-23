@@ -1,0 +1,67 @@
+Adjusted Rand Score (ARI): 0.9313916045371472
+
+df_distrib: 
+
+       P1V2  P1V4  P1V5  P1V6  P1V7  P1V8
+index                                    
+0         0     0     2     0     0     0
+1         0     4     0     2     0     0
+2         0     0     6     0     0     0
+3         0     0     0     0     6     0
+4         0     0     0     0     0    12
+5        12     0     0     0     0     0
+
+dict_var: 
+
+{5: ['ABCDE', 'ABCDEF', 'ABCED', 'ABCEDF', 'ABDCE', 'ABDCEF', 'ACBDE', 'ACBDEF', 'ACBED', 'ACBEDF', 'ACEBD', 'ACEBDF'], 2: ['ABD', 'ABDBD', 'ABDBDBD', 'ABDBDBDF', 'ABDBDF', 'ABDF'], 0: ['ABDBDBDBDBDF', 'ABDBDBDBDF'], 4: ['ADCEB', 'ADCEBF', 'ADEBC', 'ADEBCF', 'ADECB', 'ADECBF', 'AEBDC', 'AEBDCF', 'AEDBC', 'AEDBCF', 'AEDCB', 'AEDCBF'], 1: ['AZB', 'AZBEF', 'AZBF', 'AZC', 'AZCDF', 'AZCF'], 3: ['CABE', 'CABED', 'CAEB', 'CAEBD', 'CBAE', 'CBAED']}
+
+dend: 
+
+[[ 0.          1.          1.5         2.        ]
+ [ 2.          3.          1.5         2.        ]
+ [11.         12.          1.5         2.        ]
+ [20.         21.          1.5         2.        ]
+ [26.         27.          1.5         2.        ]
+ [ 4.         13.          1.5         2.        ]
+ [ 5.         10.          1.5         2.        ]
+ [ 6.          9.          1.5         2.        ]
+ [14.         15.          1.5         2.        ]
+ [32.         34.          1.5         2.        ]
+ [16.         17.          1.5         2.        ]
+ [18.         19.          1.5         2.        ]
+ [22.         28.          1.5         2.        ]
+ [23.         29.          1.5         2.        ]
+ [24.         30.          1.5         2.        ]
+ [39.         41.          1.5         2.        ]
+ [35.         37.          1.5         2.        ]
+ [25.         31.          1.5         2.        ]
+ [42.         43.          1.5         2.        ]
+ [38.         40.          1.5         2.        ]
+ [44.         45.          2.          4.        ]
+ [ 7.          8.          2.          2.        ]
+ [52.         54.          2.          4.        ]
+ [59.         63.          2.          4.        ]
+ [33.         53.          2.25        3.        ]
+ [56.         57.          2.25        4.        ]
+ [36.         60.          2.25        3.        ]
+ [58.         61.          2.25        4.        ]
+ [46.         64.          2.375       6.        ]
+ [55.         66.          2.375       6.        ]
+ [62.         67.          2.375       6.        ]
+ [50.         51.          2.5         4.        ]
+ [48.         69.          2.5         6.        ]
+ [47.         71.          2.5         6.        ]
+ [68.         70.          3.          6.        ]
+ [76.         77.          3.11111111 12.        ]
+ [72.         73.          3.22222222 12.        ]
+ [49.         75.          3.5         6.        ]
+ [79.         80.          4.         24.        ]
+ [74.         82.          4.51041667 30.        ]
+ [81.         83.          4.825      36.        ]
+ [78.         84.          5.06018519 42.        ]
+ [65.         85.          9.11309524 44.        ]]
+
+traces: 
+
+{0: 'ABCDE', 1: 'ABCDEF', 2: 'ABCED', 3: 'ABCEDF', 4: 'ABD', 5: 'ABDBD', 6: 'ABDBDBD', 7: 'ABDBDBDBDBDF', 8: 'ABDBDBDBDF', 9: 'ABDBDBDF', 10: 'ABDBDF', 11: 'ABDCE', 12: 'ABDCEF', 13: 'ABDF', 14: 'ACBDE', 15: 'ACBDEF', 16: 'ACBED', 17: 'ACBEDF', 18: 'ACEBD', 19: 'ACEBDF', 20: 'ADCEB', 21: 'ADCEBF', 22: 'ADEBC', 23: 'ADEBCF', 24: 'ADECB', 25: 'ADECBF', 26: 'AEBDC', 27: 'AEBDCF', 28: 'AEDBC', 29: 'AEDBCF', 30: 'AEDCB', 31: 'AEDCBF', 32: 'AZB', 33: 'AZBEF', 34: 'AZBF', 35: 'AZC', 36: 'AZCDF', 37: 'AZCF', 38: 'CABE', 39: 'CABED', 40: 'CAEB', 41: 'CAEBD', 42: 'CBAE', 43: 'CBAED'}
+

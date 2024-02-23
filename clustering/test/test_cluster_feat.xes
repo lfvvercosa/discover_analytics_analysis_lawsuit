@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<string key="origin" value="csv" />
+	<trace>
+		<string key="concept:name" value="1" />
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="2018-07-18T10:38:32+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2018-07-19T10:38:32+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2018-07-20T10:38:32+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="2018-07-21T10:38:32+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3" />
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="2018-07-26T10:38:32+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="2018-07-27T10:38:32+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2018-07-28T10:38:32+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2018-07-29T10:38:32+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="2018-07-30T10:38:32+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4" />
+		<event>
+			<string key="concept:name" value="G" />
+			<date key="time:timestamp" value="2018-07-31T10:38:32+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2018-08-01T10:38:32+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="E" />
+			<date key="time:timestamp" value="2018-08-02T10:38:32+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="2018-08-03T10:38:32+02:00" />
+		</event>
+        <event>
+			<string key="concept:name" value="C" />
+			<date key="time:timestamp" value="2018-08-04T10:38:32+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5" />
+		<event>
+			<string key="concept:name" value="A" />
+			<date key="time:timestamp" value="2018-08-04T10:38:32+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2018-08-05T10:38:32+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="2018-08-06T10:38:32+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="2018-08-07T10:38:32+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="6" />
+		<event>
+			<string key="concept:name" value="A" />
+			<date key="time:timestamp" value="2018-08-08T10:38:32+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2018-08-09T10:38:32+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="2018-08-10T10:38:32+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="2018-08-11T10:38:32+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="7" />
+		<event>
+			<string key="concept:name" value="A" />
+			<date key="time:timestamp" value="2018-08-12T10:38:32+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2018-08-13T10:38:32+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="B" />
+			<date key="time:timestamp" value="2018-08-14T10:38:32+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="D" />
+			<date key="time:timestamp" value="2018-08-15T10:38:32+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="F" />
+			<date key="time:timestamp" value="2018-08-16T10:38:32+02:00" />
+		</event>
+	</trace>
+</log>

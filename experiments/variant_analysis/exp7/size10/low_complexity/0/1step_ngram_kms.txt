@@ -1,0 +1,30 @@
+Adjusted Rand Score (ARI): 0.24418548426091582
+
+df_distrib: 
+
+V-measure (Vm): 0.4692395474984292
+
+best_clusters: 3
+
+best_ngram: 1
+
+best_min_percents: 0
+
+best_max_percents: 1
+
+best df_distrib: 
+
+       P1  P2  P3
+index            
+0      10   4   0
+1      10   1   0
+2       0   0   4
+
+dict_var: 
+
+{1: ['AIJ', 'CAE', 'CEA', 'CGCAE', 'CGCEA', 'CGCGCAE', 'CGCGCEA', 'CGCGCGCAE', 'CGCGCGCEA', 'CGCGCGCGCAE', 'CGCGCGCGCGCAE'], 0: ['BCGCE', 'BCJCE', 'CBFAE', 'CBFEA', 'CBGCE', 'CBGIAE', 'CBGIEA', 'CBGIEIAE', 'CBGIEIEA', 'CBGIEIEIAE', 'CBGIEIEIEA', 'CBGIEIEIEIAE', 'CBGIEIEIEIEA', 'CBJCE'], 2: ['CGAEBFHD', 'CGAEBIHD', 'CGAIBFHD', 'CGAIBIHD']}
+
+dict_gd: 
+
+{1: {'G2': ['AIJ'], 'G1': ['CAE', 'CEA', 'CGCAE', 'CGCEA', 'CGCGCAE', 'CGCGCEA', 'CGCGCGCAE', 'CGCGCGCEA', 'CGCGCGCGCAE', 'CGCGCGCGCGCAE']}, 0: {'G2': ['BCGCE', 'BCJCE', 'CBGCE', 'CBJCE'], 'G1': ['CBFAE', 'CBFEA', 'CBGIAE', 'CBGIEA', 'CBGIEIAE', 'CBGIEIEA', 'CBGIEIEIAE', 'CBGIEIEIEA', 'CBGIEIEIEIAE', 'CBGIEIEIEIEA']}, 2: {'G3': ['CGAEBFHD', 'CGAEBIHD', 'CGAIBFHD', 'CGAIBIHD']}}
+

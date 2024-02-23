@@ -1,0 +1,246 @@
+
+ABDCEF III
+ACBEDF IIII
+ABCDEF II
+ACEBDF I
+
+(
+
+ A:
+
+ -B: 5
+ -C: 5
+
+ F:
+
+ E-: 5
+ D-: 5
+
+ B:
+
+ AD: 3
+ CE: 4
+ ED: 1
+ AC: 2
+ 
+ D:
+ 
+ BC: 3
+ EF: 4
+ CE: 2
+ BF: 1
+ 
+ C:
+
+ DE: 3
+ AB: 4
+ BD: 2
+ AE: 1
+ 
+ E:
+
+ CF: 3
+ BD: 4
+ DF: 2
+ CB: 1
+)
+
+C_{-B}(A,A) = 10
+C_{-C}(A,A) = 10
+C(A,A) = 20
+
+C_{E-}(F,F) = 10
+C_{D-}(F,F) = 10
+C(F,F) = 20
+
+C_{C,E}(B,D) = 4*2
+C(B,D) = 8
+
+C(D,B) = 8
+
+C_{BD}(C,E) = 2*4 = 8
+C(C,E) = 8
+
+C(E,C) = 8
+
+C_{A,D}(B,B) = 3
+C_{C,E}(B,B) = 6
+C_{E,D}(B,B) = 0
+C_{A,C}(B,B) = 1
+
+C(B,B) = 10
+
+C_{D,E}(C,C) = 3
+C_{A,B}(C,C) = 6
+C_{B,D}(C,C) = 1
+C_{A,E}(C,C) = 0
+
+C(C,C) = 10
+
+C(D,D) = 10
+
+######
+
+C(A,A) = 20
+C(B,B) = 10
+C(C,C) = 10
+C(D,D) = 10
+C(E,E) = 10
+C(F,F) = 20
+
+C(B,D) = 8
+C(D,B) = 8
+
+C(C,E) = 8
+C(E,C) = 8
+
+######
+
+
+N = C(A,A) + C(B,B) + C(C,C) + C(D,D) + C(E,E) + C(F,F) + C(B,D) + C(D,B) + C(C,E) + C(E,C) 
+N = 20 + 10 + 10 + 10 + 10 + 20 + 8 + 8 + 8 + 8
+N = 112
+
+M(A,A) = 20/112
+M(B,B) = 10/112
+M(C,C) = 10/112
+M(D,D) = 10/112
+M(E,E) = 10/112
+M(F,F) = 20/112
+
+M(B,D) = 8/112
+M(D,B) = 8/112
+
+M(C,E) = 8/112
+M(E,C) = 8/112
+
+p(A) = M(A,A)  
+p(B) = M(B,B) + M(B,D) 
+p(C) = M(C,C) + M(C,E) 
+p(D) = M(D,D) + M(D,B)
+p(E) = M(E,E) + M(E,C) 
+p(F) = M(F,F)
+
+p(A) = 20/112
+p(B) = 10/112 + 8/112 = 18/112
+p(C) = 10/112 + 8/112 = 18/112
+p(D) = 10/112 + 8/112 = 18/112
+p(E) = 10/112 + 8/112 = 18/112
+p(F) = 20/112
+
+
+S(A,A) = log2(M(A,A)/p(A)²) = log2((20/112)/((20/112)*(20/112)))
+S(A,A) = 2.4854
+
+S(B,D) = log2(M(B,D)/(2*p(B)*p(D))) = log2((8/112)/(2*(18/112)*(18/112)))
+S(B,D) = 0.4675
+
+S(D,D) = log2(M(D,D)/p(D)²) = log2((10/112)/((18/112)*(18/112)))
+S(D,D) = 1.79
+
+
+########## INDEL LEFT GIVEN RIGHT ##########
+
+
+ABDCEF III
+ACBEDF IIII
+ABCDEF II
+ACEBDF I
+
+(
+ A:
+
+ -B: 5
+ -C: 5
+
+ F:
+
+ E-: 5
+ D-: 5
+
+ B:
+
+ AD: 3
+ CE: 4
+ ED: 1
+ AC: 2
+ 
+ D:
+ 
+ BC: 3
+ EF: 4
+ CE: 2
+ BF: 1
+ 
+ C:
+
+ DE: 3
+ AB: 4
+ BD: 2
+ AE: 1
+ 
+ E:
+
+ CF: 3
+ BD: 4
+ DF: 2
+ CB: 1
+)
+
+countLeftGivenRight(A/B) = 5
+countLeftGivenRight(A/C) = 5
+
+countLeftGivenRight(B/D) = 4
+countLeftGivenRight(B/E) = 4
+countLeftGivenRight(B/C) = 2
+
+countLeftGivenRight(D/C) = 3
+countLeftGivenRight(D/F) = 5
+countLeftGivenRight(D/E) = 2
+
+countLeftGivenRight(C/E) = 4
+countLeftGivenRight(C/B) = 4
+countLeftGivenRight(C/D) = 2
+
+countLeftGivenRight(E/F) = 5
+countLeftGivenRight(E/D) = 4
+countLeftGivenRight(E/B) = 1
+
+norm(A) = 10
+norm(B) = 10
+norm(D) = 10
+norm(C) = 10
+norm(E) = 10
+
+total_occur = 6*10 = 60
+
+P(A) = 10/60
+P(B) = 10/60
+P(D) = 10/60
+P(C) = 10/60
+P(E) = 10/60
+P(F) = 10/60
+
+normCountLeftGivenRight(A/B) = 5/10
+normCountLeftGivenRight(A/C) = 5/10
+normCountLeftGivenRight(B/D) = 4/10
+normCountLeftGivenRight(B/E) = 4/10
+normCountLeftGivenRight(B/C) = 2/10
+normCountLeftGivenRight(D/C) = 3/10
+normCountLeftGivenRight(D/F) = 5/10
+normCountLeftGivenRight(D/E) = 2/10
+normCountLeftGivenRight(C/E) = 4/10
+normCountLeftGivenRight(C/B) = 4/10
+normCountLeftGivenRight(C/D) = 2/10
+normCountLeftGivenRight(E/F) = 5/10
+normCountLeftGivenRight(E/D) = 4/10
+normCountLeftGivenRight(E/B) = 1/10
+
+insLeftGivenRight(A/B) = log2((5/10)/((10/60)*(10/60))) = 4.17
+insLeftGivenRight(E/F) = log2((5/10)/((10/60)*(10/60))) = 4.17
+insLeftGivenRight(D/E) = log2((2/10)/((10/60)*(10/60))) = 2.85
+insLeftGivenRight(C/B) = log2((4/10)/((10/60)*(10/60))) = 3.85
+
+
+
+

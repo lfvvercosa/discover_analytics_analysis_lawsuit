@@ -1,0 +1,272 @@
+[
+    {
+        "event_log": "VITORIA_-_5a_VARA_CIVEL_-_TJES.xes",
+        "algorithm": "IMf",
+        "precision_alignment": 0.322,
+        "fitness_alignment": 0.7888,
+        "precision_time": 280.6042,
+        "fitness_time": 861.2144,
+        "total_variants_log": 206
+    },
+    {
+        "event_log": "Receipt phase of an environmental permit application process (_WABO_) CoSeLoG project.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.3763,
+        "fitness_alignment": 0.869,
+        "precision_time": 7.07,
+        "fitness_time": 45.6772,
+        "total_variants_log": 116
+    },
+    {
+        "event_log": "Production_Data.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.3595,
+        "fitness_alignment": 0.627,
+        "precision_time": 172.5033,
+        "fitness_time": 4254.3364,
+        "total_variants_log": 221
+    },
+    {
+        "event_log": "activitylog_uci_detailed_weekends.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.2893,
+        "fitness_alignment": 0.7513,
+        "precision_time": 2.1302,
+        "fitness_time": 5.8441,
+        "total_variants_log": 10
+    },
+    {
+        "event_log": "3a_VARA_DE_FAMILIA_E_REGISTRO_CIVIL_DA_COMARCA_DE_OLINDA_-_TJPE.xes",
+        "algorithm": "IMf",
+        "precision_alignment": 0.3027,
+        "fitness_alignment": 0.6655,
+        "precision_time": 0.5268,
+        "fitness_time": 2.096,
+        "total_variants_log": 33
+    },
+    {
+        "event_log": "4a_VARA_DE_SUCESSOES_E_REGISTROS_PUBLICOS_DA_CAPITAL_-_TJPE.xes",
+        "algorithm": "IMf",
+        "precision_alignment": 0.2203,
+        "fitness_alignment": 0.8834,
+        "precision_time": 23.846,
+        "fitness_time": 69.6757,
+        "total_variants_log": 36
+    },
+    {
+        "event_log": "edited_hh104_labour.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.3136,
+        "fitness_alignment": 0.4603,
+        "precision_time": 46.7063,
+        "fitness_time": 3364.8103,
+        "total_variants_log": 43
+    },
+    {
+        "event_log": "activitylog_uci_detailed_labour.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.3347,
+        "fitness_alignment": 0.7842,
+        "precision_time": 19.3401,
+        "fitness_time": 261.446,
+        "total_variants_log": 25
+    },
+    {
+        "event_log": "edited_hh102_labour.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.2609,
+        "fitness_alignment": 0.7831,
+        "precision_time": 6.5025,
+        "fitness_time": 98.0555,
+        "total_variants_log": 18
+    },
+    {
+        "event_log": "3a_VARA_DE_EXECUCOES_FISCAIS_DA_COMARCA_DE_FORTALEZA_-_TJCE.xes",
+        "algorithm": "IMf",
+        "precision_alignment": 0.3818,
+        "fitness_alignment": 0.4891,
+        "precision_time": 0.8812,
+        "fitness_time": 1.3884,
+        "total_variants_log": 53
+    },
+    {
+        "event_log": "BPI_Challenge_2014_Department control parcels.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.9914,
+        "fitness_alignment": 0.7241,
+        "precision_time": 2.3082,
+        "fitness_time": 2.5371,
+        "total_variants_log": 349
+    },
+    {
+        "event_log": "BPI_Challenge_2014_Control summary.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.9391,
+        "fitness_alignment": 0.8945,
+        "precision_time": 1.3325,
+        "fitness_time": 1.0106,
+        "total_variants_log": 59
+    },
+    {
+        "event_log": "4a_VARA_CIVEL_-_TJGO.xes",
+        "algorithm": "IMf",
+        "precision_alignment": 0.7556,
+        "fitness_alignment": 0.7447,
+        "precision_time": 0.4524,
+        "fitness_time": 1.5615,
+        "total_variants_log": 98
+    },
+    {
+        "event_log": "BPI_Challenge_2014_Geo parcel document.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.3713,
+        "fitness_alignment": -1,
+        "precision_time": 1579.1057,
+        "fitness_time": 7200.2576,
+        "total_variants_log": 9274
+    },
+    {
+        "event_log": "BPI_Challenge_2014_Entitlement application.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.3273,
+        "fitness_alignment": 0.9918,
+        "precision_time": 408.849,
+        "fitness_time": 876.865,
+        "total_variants_log": 2553
+    },
+    {
+        "event_log": "BPI_Challenge_2014_Inspection.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.671,
+        "fitness_alignment": -1,
+        "precision_time": 1128.3003,
+        "fitness_time": 7200.1661,
+        "total_variants_log": 3190
+    },
+    {
+        "event_log": "ElectronicInvoicingENG.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.5691,
+        "fitness_alignment": 0.9328,
+        "precision_time": 1.3813,
+        "fitness_time": 0.6759,
+        "total_variants_log": 7
+    },
+    {
+        "event_log": "PRIMEIRA_VARA_CRIMINAL_-_COMARCA_DE_VARZEA_GRANDE_-_SDCR_-_TJMT.xes",
+        "algorithm": "IMf",
+        "precision_alignment": 0.7168,
+        "fitness_alignment": 0.5251,
+        "precision_time": 165.7011,
+        "fitness_time": 3339.8081,
+        "total_variants_log": 47
+    },
+    {
+        "event_log": "VARA_DA_FAZENDA_PUBLICA_DA_COMARCA_DE_PAULISTA_-_TJPE.xes",
+        "algorithm": "IMf",
+        "precision_alignment": 0.3709,
+        "fitness_alignment": 0.8075,
+        "precision_time": 23.2483,
+        "fitness_time": 38.3527,
+        "total_variants_log": 112
+    },
+    {
+        "event_log": "8_a_VARA_CIVEL_DE_ARACAJU_-_TJSE.xes",
+        "algorithm": "IMf",
+        "precision_alignment": -1,
+        "fitness_alignment": -1,
+        "precision_time": 7200.4639,
+        "fitness_time": 7200.1455,
+        "total_variants_log": 495
+    },
+    {
+        "event_log": "BPI_Challenge_2012.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.3754,
+        "fitness_alignment": -1,
+        "precision_time": 439.7015,
+        "fitness_time": 7200.1334,
+        "total_variants_log": 4366
+    },
+    {
+        "event_log": "edited_hh110_weekends.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.1508,
+        "fitness_alignment": 0.9188,
+        "precision_time": 20.5197,
+        "fitness_time": 134.4724,
+        "total_variants_log": 6
+    },
+    {
+        "event_log": "DocumentProcessingENG.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.5438,
+        "fitness_alignment": 0.8455,
+        "precision_time": 1.143,
+        "fitness_time": 0.5229,
+        "total_variants_log": 3
+    },
+    {
+        "event_log": "3a_VARA_DE_FEITOS_TRIBUTARIOS_DO_ESTADO_-_TJMG.xes",
+        "algorithm": "IMf",
+        "precision_alignment": 0.1697,
+        "fitness_alignment": -1,
+        "precision_time": 248.5845,
+        "fitness_time": 7200.3533,
+        "total_variants_log": 35
+    },
+    {
+        "event_log": "1a_VARA_DE_FEITOS_TRIBUTARIOS_DO_ESTADO_-_TJMG.xes",
+        "algorithm": "IMf",
+        "precision_alignment": 0.1315,
+        "fitness_alignment": 0.9369,
+        "precision_time": 23.225,
+        "fitness_time": 163.1421,
+        "total_variants_log": 28
+    },
+    {
+        "event_log": "BPI_Challenge_2020_InternationalDeclarations.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.2038,
+        "fitness_alignment": 0.9272,
+        "precision_time": 17.5338,
+        "fitness_time": 38.5866,
+        "total_variants_log": 753
+    },
+    {
+        "event_log": "edited_hh104_weekends.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.2199,
+        "fitness_alignment": 0.675,
+        "precision_time": 30.7968,
+        "fitness_time": 345.1979,
+        "total_variants_log": 18
+    },
+    {
+        "event_log": "1a_VARA_CRIMINAL_DA_CAPITAL_-_TJAM.xes",
+        "algorithm": "IMf",
+        "precision_alignment": 0.4786,
+        "fitness_alignment": 0.7214,
+        "precision_time": 151.7359,
+        "fitness_time": 443.5373,
+        "total_variants_log": 128
+    },
+    {
+        "event_log": "edited_hh110_labour.xes.gz",
+        "algorithm": "IMf",
+        "precision_alignment": 0.256,
+        "fitness_alignment": 0.7628,
+        "precision_time": 17.3187,
+        "fitness_time": 219.8384,
+        "total_variants_log": 21
+    },
+    {
+        "event_log": "QUARTA_VARA_CRIMINAL_-_COMARCA_DE_VARZEA_GRANDE_-_SDCR_-_TJMT.xes",
+        "algorithm": "IMf",
+        "precision_alignment": 0.5623,
+        "fitness_alignment": 0.7536,
+        "precision_time": 87.637,
+        "fitness_time": 346.8051,
+        "total_variants_log": 52
+    }
+]

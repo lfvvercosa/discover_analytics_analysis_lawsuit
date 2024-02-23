@@ -1,0 +1,30 @@
+Adjusted Rand Score (ARI): 0.5917270682329417
+
+df_distrib: 
+
+V-measure (Vm): 0.7161689279749179
+
+best_clusters: 3
+
+best_ngram: 2
+
+best_min_percents: 0.2
+
+best_max_percents: 0.8
+
+best df_distrib: 
+
+       P1  P2  P3
+index            
+0       0   0   6
+1      13   0   0
+2       0   5   9
+
+dict_var: 
+
+{2: ['AF', 'BJ', 'CDBF', 'CHBIE', 'FA', 'FH', 'GDBF', 'GDBIE', 'GHBF', 'GHBIE', 'HF', 'JDBF', 'JHBF', 'JHBIE'], 1: ['BCIDFHAJ', 'BCIDGHAJ', 'BEDFHAJ', 'BEDGHAJ', 'BICDFHAJ', 'BICDGHAJ', 'CBIDGHAJ', 'CIBDGHAJ', 'EBDFHAJ', 'EBDGHAJ', 'IBCDGHAJ', 'ICBDFHAJ', 'ICBDGHAJ'], 0: ['CDBEI', 'CHBEI', 'GDBEI', 'GHBEI', 'JDBEI', 'JHBEI']}
+
+dict_gd: 
+
+{2: {'G2': ['AF', 'BJ', 'FA', 'FH', 'HF'], 'G3': ['CDBF', 'CHBIE', 'GDBF', 'GDBIE', 'GHBF', 'GHBIE', 'JDBF', 'JHBF', 'JHBIE']}, 1: {'G1': ['BCIDFHAJ', 'BCIDGHAJ', 'BEDFHAJ', 'BEDGHAJ', 'BICDFHAJ', 'BICDGHAJ', 'CBIDGHAJ', 'CIBDGHAJ', 'EBDFHAJ', 'EBDGHAJ', 'IBCDGHAJ', 'ICBDFHAJ', 'ICBDGHAJ']}, 0: {'G3': ['CDBEI', 'CHBEI', 'GDBEI', 'GHBEI', 'JDBEI', 'JHBEI']}}
+

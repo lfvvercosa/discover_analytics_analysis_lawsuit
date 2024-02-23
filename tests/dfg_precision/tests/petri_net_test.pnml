@@ -1,0 +1,124 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="net1" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <page id="n0">
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p3">
+        <name>
+          <text>p3</text>
+        </name>
+      </place>
+      <place id="p4">
+        <name>
+          <text>p4</text>
+        </name>
+      </place>
+      <place id="p2">
+        <name>
+          <text>p2</text>
+        </name>
+      </place>
+      <place id="p1">
+        <name>
+          <text>p1</text>
+        </name>
+      </place>
+      <place id="p7">
+        <name>
+          <text>p7</text>
+        </name>
+      </place>
+      <place id="p6">
+        <name>
+          <text>p6</text>
+        </name>
+      </place>
+      <transition id="c">
+        <name>
+          <text>c</text>
+        </name>
+      </transition>
+      <transition id="g">
+        <name>
+          <text>g</text>
+        </name>
+      </transition>
+      <transition id="h">
+        <name>
+          <text>h</text>
+        </name>
+      </transition>
+      <transition id="a">
+        <name>
+          <text>a</text>
+        </name>
+      </transition>
+      <transition id="f">
+        <name>
+          <text>f</text>
+        </name>
+      </transition>
+      <transition id="e">
+        <name>
+          <text>e</text>
+        </name>
+      </transition>
+      <transition id="b">
+        <name>
+          <text>b</text>
+        </name>
+      </transition>
+      <transition id="i">
+        <name>
+          <text>i</text>
+        </name>
+      </transition>
+      <transition id="d">
+        <name>
+          <text>d</text>
+        </name>
+      </transition>
+      <arc id="140323224993408" source="a" target="p1"/>
+      <arc id="140323225067648" source="f" target="p6"/>
+      <arc id="140323225068040" source="g" target="p7"/>
+      <arc id="140323225067928" source="p4" target="e"/>
+      <arc id="140323224993688" source="p2" target="f"/>
+      <arc id="140323225068320" source="h" target="sink"/>
+      <arc id="140323224993576" source="p1" target="f"/>
+      <arc id="140323225067816" source="p3" target="e"/>
+      <arc id="140323225068208" source="d" target="sink"/>
+      <arc id="140323224993464" source="a" target="p2"/>
+      <arc id="140323225067704" source="p3" target="d"/>
+      <arc id="140323225068096" source="p7" target="h"/>
+      <arc id="140323224993352" source="source" target="a"/>
+      <arc id="140323225067592" source="c" target="p4"/>
+      <arc id="140323224993744" source="b" target="p3"/>
+      <arc id="140323225067984" source="p6" target="g"/>
+      <arc id="140323224993632" source="p2" target="c"/>
+      <arc id="140323225067872" source="p4" target="d"/>
+      <arc id="140323225068264" source="e" target="sink"/>
+      <arc id="140323224993520" source="p1" target="b"/>
+      <arc id="140323225067760" source="p3" target="i"/>
+      <arc id="140323225068152" source="i" target="p1"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

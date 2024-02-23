@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<log xes.version="1849-2016" xes.features="nested-attributes" xmlns="http://www.xes-standard.org/">
+	<extension name="Time" prefix="time" uri="http://www.xes-standard.org/time.xesext" />
+	<extension name="Concept" prefix="concept" uri="http://www.xes-standard.org/concept.xesext" />
+	<string key="origin" value="csv" />
+	<string key="concept:name" value="test_dendrogram4.xes" />
+	<trace>
+		<string key="concept:name" value="1" />
+		<event>
+			<string key="concept:name" value="Ga" />
+			<date key="time:timestamp" value="2018-07-21T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ba" />
+			<date key="time:timestamp" value="2018-07-22T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Da" />
+			<date key="time:timestamp" value="2018-07-23T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Fa" />
+			<date key="time:timestamp" value="2018-07-24T14:05:48+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="2" />
+		<event>
+			<string key="concept:name" value="Ga" />
+			<date key="time:timestamp" value="2018-07-25T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ba" />
+			<date key="time:timestamp" value="2018-07-26T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Da" />
+			<date key="time:timestamp" value="2018-07-27T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Fa" />
+			<date key="time:timestamp" value="2018-07-28T14:05:48+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="3" />
+		<event>
+			<string key="concept:name" value="Ga" />
+			<date key="time:timestamp" value="2018-07-29T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ba" />
+			<date key="time:timestamp" value="2018-07-30T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Da" />
+			<date key="time:timestamp" value="2018-07-31T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Fa" />
+			<date key="time:timestamp" value="2018-08-01T14:05:48+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="4" />
+		<event>
+			<string key="concept:name" value="Ga" />
+			<date key="time:timestamp" value="2018-08-02T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ga" />
+			<date key="time:timestamp" value="2018-08-03T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ba" />
+			<date key="time:timestamp" value="2018-08-04T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Da" />
+			<date key="time:timestamp" value="2018-08-05T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Fa" />
+			<date key="time:timestamp" value="2018-08-06T14:05:48+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="5" />
+		<event>
+			<string key="concept:name" value="Ga" />
+			<date key="time:timestamp" value="2018-08-07T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Da" />
+			<date key="time:timestamp" value="2018-08-08T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ba" />
+			<date key="time:timestamp" value="2018-08-09T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Fa" />
+			<date key="time:timestamp" value="2018-08-10T14:05:48+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="6" />
+		<event>
+			<string key="concept:name" value="Ga" />
+			<date key="time:timestamp" value="2018-08-11T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Da" />
+			<date key="time:timestamp" value="2018-08-12T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ba" />
+			<date key="time:timestamp" value="2018-08-13T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Fa" />
+			<date key="time:timestamp" value="2018-08-14T14:05:48+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="7" />
+		<event>
+			<string key="concept:name" value="Aa" />
+			<date key="time:timestamp" value="2018-08-15T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ga" />
+			<date key="time:timestamp" value="2018-08-16T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ha" />
+			<date key="time:timestamp" value="2018-08-17T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ca" />
+			<date key="time:timestamp" value="2018-08-18T14:05:48+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="8" />
+		<event>
+			<string key="concept:name" value="Aa" />
+			<date key="time:timestamp" value="2018-08-19T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ga" />
+			<date key="time:timestamp" value="2018-08-20T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ha" />
+			<date key="time:timestamp" value="2018-08-21T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ca" />
+			<date key="time:timestamp" value="2018-08-22T14:05:48+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="9" />
+		<event>
+			<string key="concept:name" value="Aa" />
+			<date key="time:timestamp" value="2018-08-23T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ga" />
+			<date key="time:timestamp" value="2018-08-24T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ha" />
+			<date key="time:timestamp" value="2018-08-25T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ca" />
+			<date key="time:timestamp" value="2018-08-26T14:05:48+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="10" />
+		<event>
+			<string key="concept:name" value="Aa" />
+			<date key="time:timestamp" value="2018-08-27T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ga" />
+			<date key="time:timestamp" value="2018-08-28T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ha" />
+			<date key="time:timestamp" value="2018-08-29T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ca" />
+			<date key="time:timestamp" value="2018-08-30T14:05:48+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="11" />
+		<event>
+			<string key="concept:name" value="Aa" />
+			<date key="time:timestamp" value="2018-08-31T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ha" />
+			<date key="time:timestamp" value="2018-09-01T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ga" />
+			<date key="time:timestamp" value="2018-09-02T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ca" />
+			<date key="time:timestamp" value="2018-09-03T14:05:48+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="12" />
+		<event>
+			<string key="concept:name" value="Aa" />
+			<date key="time:timestamp" value="2018-09-04T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ga" />
+			<date key="time:timestamp" value="2018-09-05T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ha" />
+			<date key="time:timestamp" value="2018-09-06T14:05:48+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="13" />
+		<event>
+			<string key="concept:name" value="Qu" />
+			<date key="time:timestamp" value="2018-09-07T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Wa" />
+			<date key="time:timestamp" value="2018-09-08T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ua" />
+			<date key="time:timestamp" value="2018-09-09T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Fa" />
+			<date key="time:timestamp" value="2018-09-10T14:05:48+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="14" />
+		<event>
+			<string key="concept:name" value="Qu" />
+			<date key="time:timestamp" value="2018-09-11T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Wa" />
+			<date key="time:timestamp" value="2018-09-12T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ua" />
+			<date key="time:timestamp" value="2018-09-13T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Fa" />
+			<date key="time:timestamp" value="2018-09-14T14:05:48+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="15" />
+		<event>
+			<string key="concept:name" value="Qu" />
+			<date key="time:timestamp" value="2018-09-15T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Wa" />
+			<date key="time:timestamp" value="2018-09-16T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ua" />
+			<date key="time:timestamp" value="2018-09-17T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Fa" />
+			<date key="time:timestamp" value="2018-09-18T14:05:48+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="16" />
+		<event>
+			<string key="concept:name" value="Qu" />
+			<date key="time:timestamp" value="2018-09-19T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Wa" />
+			<date key="time:timestamp" value="2018-09-20T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ua" />
+			<date key="time:timestamp" value="2018-09-21T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Fa" />
+			<date key="time:timestamp" value="2018-09-22T14:05:48+02:00" />
+		</event>
+	</trace>
+	<trace>
+		<string key="concept:name" value="17" />
+		<event>
+			<string key="concept:name" value="Qu" />
+			<date key="time:timestamp" value="2018-09-23T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Wa" />
+			<date key="time:timestamp" value="2018-09-24T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Ua" />
+			<date key="time:timestamp" value="2018-09-25T14:05:48+02:00" />
+		</event>
+		<event>
+			<string key="concept:name" value="Fa" />
+			<date key="time:timestamp" value="2018-09-26T14:05:48+02:00" />
+		</event>
+	</trace>
+</log>

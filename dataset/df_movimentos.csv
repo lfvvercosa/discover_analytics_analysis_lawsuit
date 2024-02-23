@@ -1,0 +1,694 @@
+breadscrum,cod_item,cod_item_pai,nome
+1,1,0,Magistrado
+1:3,3,1,Decisão
+1:3:7,7,3,Conversão
+1:3:11,11,3,Declaração
+14:15:16,16,15,Cálculo
+14:18:22,22,18,Baixa Definitiva
+1:3:25,25,3,Suspensão ou Sobrestamento
+14:18:26,26,18,Distribuição
+14:18:36,36,18,Redistribuição
+14:48,48,14,Escrivão/Diretor de Secretaria/Secretário Jurídico
+14:48:51,51,48,Conclusão
+1:3:56,56,3,Requisição de informações
+14:48:60,60,48,Expedição de documento
+1:3:63,63,3,Ordenação de entrega de autos
+14:48:67,67,48,Juntada
+1:3:83,83,3,Cancelamento da distribuição
+14:48:67:85,85,67,Petição
+14:48:92,92,48,Publicação
+14:104:105,105,104,Devolução
+14:104:105:106,106,105,Mandado
+1:3:108,108,3,Decretação de Prisão Criminal
+14:104:105:112,112,105,Ofício
+1:3:113,113,3,Decretação de Prisão Civil
+14:104:115,115,104,Recebimento
+1:3:117,117,3,Decretação de Internação
+14:48:118,118,48,Protocolo de Petição
+1:3:122,122,3,Desacolhimento de Prisão
+14:48:123,123,48,Remessa
+1:3:157:128,128,157,Prisão
+14:48:132,132,48,Recebimento
+1:3:133,133,3,Acolhimento de exceção
+14:48:135,135,48,Apensamento
+14:48:137,137,48,Desapensamento
+1:3:138,138,3,Rejeição
+1:3:146,146,3,Não-Homologação de prisão em flagrante
+1:3:151,151,3,Concessão de efeito suspensivo
+1:3:157,157,3,Revogação
+1:3:160,160,3,Recebimento
+1:3:163,163,3,Não-Recebimento
+1:3:172,172,3,Deliberação da partilha
+1:3:378:175,175,378,Prisão em flagrante
+1:3:190,190,3,Reforma de decisão anterior
+1:193,193,1,Julgamento
+1:193:385:196,196,385,Extinção da execução ou do cumprimento da sentença
+1:193:385:198,198,385,Acolhimento de Embargos de Declaração
+1:193:385:200,200,385,Não-Acolhimento de Embargos de Declaração
+1:193:385:202,202,385,Decretação de falência
+1:3:206,206,3,Admissão
+1:3:207,207,3,Não-Admissão
+1:193:385:208,208,385,Não-Decretação de Falência
+1:193:385:210,210,385,Concessão
+1:193:385:212,212,385,Denegação
+1:193:385:214,214,385,Concessão em Parte
+1:193:218,218,193,Sem Resolução de Mérito
+1:193:385:219,219,385,Procedência
+1:193:385:220,220,385,Improcedência
+1:193:385:221,221,385,Procedência em Parte
+1:193:218:228,228,218,Arquivamento
+1:193:218:230,230,218,Recurso prejudicado
+1:193:218:235,235,218,Não Conhecimento de recurso
+1:193:218:236,236,218,Negação de Seguimento
+1:193:385:237,237,385,Provimento
+1:193:385:238,238,385,Provimento em Parte
+1:193:385:239,239,385,Não-Provimento
+1:193:385:240,240,385,Conhecimento em Parte e Provimento
+1:193:385:241,241,385,Conhecimento em Parte e Provimento em Parte
+1:193:385:242,242,385,Conhecimento em Parte e Não-Provimento
+1:193:218:244,244,218,Conversão de Agravo de Instrumento em Agravo Retido
+14:48:861:245,245,861,Provisório
+14:48:861:246,246,861,Definitivo
+1:3:25:263,263,25,Réu revel citado por edital 
+1:3:25:264,264,25,Suspensão Condicional do Processo
+1:3:25:265,265,25,Recurso Extraordinário com repercussão geral
+1:3:7:266,266,7,Julgamento em Diligência
+1:3:25:268,268,25,Morte ou perda da capacidade
+1:3:11:269,269,11,Impedimento ou Suspeição
+1:3:25:270,270,25,Convenção das Partes
+1:3:25:271,271,25,"Exceção de Incompetência, suspeição ou Impedimento"
+1:3:25:272,272,25,"A depender do julgamento de outra causa, de outro juízo ou declaração incidente"
+1:3:25:275,275,25,Força maior
+1:3:25:276,276,25,Execução frustrada
+1:3:25:277,277,25,Convenção das Partes para Cumprimento Voluntário da obrigação
+1:3:25:278,278,25,Recebimento de Embargos à Execução
+1:3:25:279,279,25,Incidente de Insanidade Mental
+14:48:311,311,48,Leilão ou Praça
+14:48:313,313,48,Sessão do Tribunal do Júri
+1:3:817:332,332,817,Antecipação de tutela
+1:3:968:334,334,968,Assistência judiciária gratuita
+1:3:133:335,335,133,de pré-executividade
+1:3:817:339,339,817,Liminar
+1:3:157:347,347,157,Antecipação de Tutela
+1:3:157:348,348,157,Liminar
+1:3:157:349,349,157,Assistência Judiciária Gratuita
+1:3:108:352,352,108,Temporária
+1:3:108:353,353,108,Preventiva
+1:3:113:354,354,113,Alimentos
+1:3:113:355,355,113,Depositário infiel
+1:3:122:357,357,122,Temporária
+1:3:122:358,358,122,Preventiva
+1:3:133:371,371,133,Incompetência
+1:3:138:373,373,138,Exceção de Impedimento ou Suspeição
+1:3:138:374,374,138,Exceção de incompetência
+1:3:378:377,377,378,Acordo em execução ou em cumprimento de sentença
+1:3:378,378,3,Homologação
+1:3:151:381,381,151,Recurso
+1:3:151:383,383,151,Impugnação ao cumprimento de sentença
+1:193:385,385,193,Com Resolução do Mérito
+1:3:160:388,388,160,Aditamento da denúncia
+1:3:160:389,389,160,Aditamento da queixa
+1:3:160:390,390,160,Aditamento do libelo
+1:3:160:391,391,160,Denúncia
+1:3:160:392,392,160,Libelo
+1:3:160:393,393,160,Queixa
+1:3:160:1060:394,394,1060,Com efeito suspensivo
+1:3:138:399,399,138,Aditamento da denúncia
+1:3:138:400,400,138,Aditamento da queixa
+1:3:138:402,402,138,Denúncia
+1:3:138:404,404,138,Queixa
+14:48:417,417,48,Inclusão em pauta
+1:3:206:429,429,206,Recurso extraordinário
+1:3:206:430,430,206,Recurso especial
+1:3:206:431,431,206,Recurso de revista
+1:3:207:432,432,207,Recurso Extraordinário
+1:3:207:433,433,207,Recurso Especial
+1:3:207:434,434,207,Recurso de Revista
+1:193:385:210:442,442,210,Segurança
+1:193:385:210:443,443,210,Habeas corpus
+1:193:385:210:444,444,210,Habeas data
+1:193:385:210:445,445,210,Mandado de injunção
+1:193:385:212:446,446,212,Segurança
+1:193:385:212:447,447,212,Habeas corpus
+1:193:385:212:448,448,212,Habeas data
+1:193:385:212:449,449,212,Mandado de injunção
+1:193:385:214:450,450,214,Segurança
+1:193:385:214:451,451,214,Habeas corpus
+1:193:385:214:452,452,214,Habeas data
+1:193:385:214:453,453,214,Mandado de injunção
+1:193:218:456:454,454,456,Indeferimento da petição inicial
+1:193:385:455,455,385,Renúncia ao direito pelo autor
+1:193:218:456,456,218,Extinção
+1:193:218:456:457,457,456,Paralisação por negligência das partes
+1:193:218:456:458,458,456,Abandono da causa
+1:193:218:456:459,459,456,Ausência de pressupostos processuais
+1:193:218:456:460,460,456,"Perempção, litispendência ou coisa julgada"
+1:193:218:456:461,461,456,Ausência das condições da ação
+1:193:218:456:462,462,456,Convenção de arbitragem
+1:193:218:456:463,463,456,Desistência
+1:193:218:456:464,464,456,Ação intransmissível
+1:193:218:456:465,465,456,Confusão entre autor e réu
+1:193:385:466,466,385,Homologação de Transação
+1:193:385:471,471,385,Pronúncia de Decadência ou Prescrição
+1:193:218:228:472,472,228,"Sumaríssimo (art. 852-B, § 1º/CLT)"
+1:193:218:228:473,473,228,Ausência do Reclamante
+14:15:16:478,478,16,Cálculo de Liquidação
+14:15:16:479,479,16,Custas
+14:15:16:480,480,16,Atualização de conta
+14:15:16:481,481,16,Tributos
+14:18:488,488,18,Cancelamento de Distribuição
+14:48:493,493,48,Entrega em carga/vista
+14:48:67:581,581,67,Documento
+1:3:968:785,785,968,Antecipação de tutela
+1:3:817:787,787,817,Assistência Judiciária Gratuita
+1:3:138:788,788,138,Exceção de pré-executividade
+1:3:968:792,792,968,Liminar
+1:3:163:799,799,163,Aditamento do libelo
+1:3:163:803,803,163,Libelo
+1:3:163:804,804,163,Recurso
+1:3:817,817,3,Concessão
+1:3:817:818,818,817,Liberdade provisória
+1:3:817:819,819,817,Livramento Condicional
+1:3:7:821,821,7,Pena / Medida
+1:3:117:823,823,117,Provisória
+1:3:117:824,824,117,Definitiva
+14:48:848,848,48,Trânsito em julgado
+14:48:849,849,48,Reativação
+1:193:218:853,853,218,Conversão de Agravo de Instrumento em Recurso Especial ou Extraordinário
+14:48:861,861,48,Arquivamento
+14:865,865,14,Arquivista
+14:865:866,866,865,Guarda Intermediária
+14:865:867,867,865,Guarda Permanente
+14:865:869,869,865,Entrega definitiva dos autos
+14:865:870,870,865,Autos Eliminados
+1:193:385:871,871,385,Acolhimento em parte de Embargos de Declaração
+14:48:873,873,48,Deliberação em Sessão
+1:193:385:884,884,385,Transação Penal
+1:3:888,888,3,Concessão em parte
+1:3:888:889,889,888,Antecipação de Tutela
+1:3:888:892,892,888,Liminar
+14:48:893,893,48,Desarquivamento
+14:48:897,897,48,Retirada de pauta
+1:3:25:898,898,25,Por decisão judicial
+1:193:385:900,900,385,Declaração de competência em conflito
+1:193:385:901,901,385,Negação de seguimento
+1:3:113:905,905,113,"de estrangeiro para deportação, expulsão ou extradição"
+14:48:928,928,48,Republicação
+1:3:133:940,940,133,Impedimento ou Suspeição
+1:3:11:941,941,11,Incompetência
+1:3:378:944,944,378,Desistência de Recurso
+1:3:157:945,945,157,Decisão anterior
+1:3:25:947,947,25,Por pendência de AIREsp
+1:3:25:960,960,25,Conflito de Competência
+1:3:961,961,3,Suscitação de Conflito de Competência
+1:3:968,968,3,Não-Concessão
+14:48:970,970,48,Audiência
+1:3:25:971,971,25,Exceção da Verdade
+1:193:385:972,972,385,Provimento (art. 557 do CPC)
+1:193:385:973,973,385,Extinção da Punibilidade
+14:865:977,977,865,Recebimento
+14:865:978,978,865,Remessa
+14:15:979,979,15,Recebimento
+14:15:980,980,15,Remessa
+14:18:981,981,18,Recebimento
+14:18:982,982,18,Remessa
+14:104:115:985,985,115,Mandado
+14:104:115:987,987,115,Ofício
+1:3:817:988,988,817,Permissão de saída
+1:3:817:990,990,817,Direito de visita
+1:3:817:1002,1002,817,Progressão de regime
+1:3:11:1003,1003,11,Remição
+1:3:157:1004,1004,157,Livramento Condicional
+1:3:1008,1008,3,Autorização
+1:3:1008:1009,1009,1008,Trabalho Externo
+1:3:1008:1010,1010,1008,Saída Temporária
+1:3:1008:1011,1011,1008,Inclusão em Regime Disciplinar Diferenciado
+1:3:1013,1013,3,Determinação
+1:3:1013:1014,1014,1013,Regressão de Regime
+1:3:1013:1015,1015,1013,Suspensão do Processo
+1:3:157:1016,1016,157,Suspensão Condicional da Pena
+1:3:817:1017,1017,817,Suspensão Condicional da Pena
+1:3:1008:1018,1018,1008,Transferência para outro Estabelecimento Penal
+1:3:1008:1019,1019,1008,Transferência da Execução da Pena
+1:193:385:973:1042,1042,973,Morte do agente
+1:193:385:973:1043,1043,973,"Anistia, graça ou indulto"
+1:193:385:973:1044,1044,973,Retroatividade de lei
+1:193:385:973:1045,1045,973,"Prescrição, decadência ou perempção"
+1:193:385:973:1046,1046,973,Renúncia do queixoso ou perdão aceito 
+1:193:385:973:1047,1047,973,Retratação do agente
+1:193:385:973:1048,1048,973,Perdão judicial
+1:193:385:973:1049,1049,973,Pagamento integral do débito
+1:193:385:973:1050,1050,973,Cumprimento da Pena
+14:48:1051,1051,48,Decurso de Prazo
+14:48:1052,1052,48,Bens Apreendidos
+14:48:1052:1053,1053,1052,Destinação
+14:48:1052:1054,1054,1052,Destinação Parcial
+14:48:1052:1055,1055,1052,Cadastramento
+1:3:160:1060:1059,1059,1060,Sem efeito suspensivo
+1:3:160:1060,1060,160,Recurso
+14:48:1061,1061,48,Disponibilização no Diário da Justiça Eletrônico
+14:48:1062,1062,48,Redisponibilização no Diário da Justiça Eletrônico
+1:3:1013:1063,1063,1013,Determinação de arquivamento de procedimentos investigatórios
+1:193:218:10953,10953,218,Pronúncia
+1:193:218:10961,10961,218,Impronúncia
+1:3:1013:10962,10962,1013,Regressão de Medida Sócio-Educativa
+1:3:817:10963,10963,817,Progressão de Medida Sócio-Educativa
+1:193:385:10964,10964,385,Extinção por Cumprimento de Medida Sócio-Educativa
+1:193:385:210:10965,10965,210,Remissão a Adolescente Infrator
+14:48:10966,10966,48,Mudança de Classe Processual
+1:3:157:11002,11002,157,Revogação da Suspensão do Processo
+14:48:11003,11003,48,Início do Cumprimento da Transação Penal
+14:48:11008,11008,48,Desmembramento de Feitos
+1:11009,11009,1,Despacho
+1:11009:11010,11010,11009,Mero expediente
+1:3:378:11011,11011,378,Homologada a Remissão
+1:11009:11025:11012,11012,11025,Conflito de Competência
+1:11009:11025:11013,11013,11025,Convenção das Partes
+1:11009:11025:11014,11014,11025,Convenção das Partes para Cumprimento Voluntário da obrigação
+1:11009:11025:11015,11015,11025,"Exceção de Incompetência, suspeição ou Impedimento"
+1:11009:11025:11016,11016,11025,Exceção da Verdade
+1:11009:11025:11017,11017,11025,Incidente de Insanidade Mental
+1:11009:11025:11018,11018,11025,Recebimento de Embargos à Execução
+1:11009:11019,11019,11009,Ordenação de entrega de autos
+1:11009:11020,11020,11009,Requisição de Informações
+1:11009:11021:11022,11022,11021,Julgamento em Diligência
+1:11009:11023:11024,11024,11023,Assistência Judiciária Gratuita
+1:11009:11025,11025,11009,Suspensão ou Sobrestamento
+1:193:218:11373,11373,218,Anulação de sentença/acórdão
+1:193:218:456:11374,11374,456,Devedor não encontrado
+1:193:218:456:11375,11375,456,Inexistência de bens penhoráveis
+1:193:218:456:11376,11376,456,Ausência do autor à audiência
+1:193:218:456:11377,11377,456,Inadmissibilidade do procedimento sumaríssimo
+1:193:218:456:11378,11378,456,Incompetência territorial
+1:193:218:456:11379,11379,456,Incompetência em razão da pessoa
+1:193:218:456:11380,11380,456,Autor falecido e sem habilitação de sucessores
+1:193:218:456:11381,11381,456,Ausência de citação de sucessores do réu falecido
+1:3:1013:11382,11382,1013,Bloqueio/penhora on line
+14:48:11383,11383,48,Ato ordinatório
+14:48:11384,11384,48,Liquidação iniciada
+14:48:11385,11385,48,Execução iniciada
+1:3:117:11393,11393,117,Sanção
+1:193:218:11394,11394,218,Homologada a Remissão
+1:3:817:11395,11395,817,Remissão ao adolescente com suspensão do processo
+1:193:218:11396,11396,218,Concessão de remissão a adolescente com exclusão do processo
+1:193:385:11401,11401,385,Procedência do pedido e procedência do pedido contraposto
+1:193:385:11402,11402,385,Procedência do pedido e procedência em parte do pedido contraposto
+1:193:385:11403,11403,385,Procedência do pedido e improcedência do pedido contraposto
+1:193:385:11404,11404,385,Procedência em parte do pedido e procedência do pedido contraposto
+1:193:385:11405,11405,385,Procedência em parte do pedido e procedência em parte do pedido contraposto
+1:193:385:11406,11406,385,Procedência em parte do pedido e improcedência do pedido contraposto
+1:193:385:11407,11407,385,Improcedência do pedido e procedência do pedido contraposto
+1:193:385:11408,11408,385,Improcedência do pedido e procedência em parte do pedido contraposto
+1:193:385:11409,11409,385,Improcedência do pedido e improcedência do pedido contraposto
+1:193:385:973:11411,11411,973,Cumprimento da suspensão condicional do processo
+1:3:817:11415,11415,817,Comutação da pena
+1:3:817:11423,11423,817,Medida protetiva
+1:3:888:11424,11424,888,Medida protetiva
+1:3:968:11425,11425,968,Medida protetiva
+1:3:157:11426,11426,157,Medida protetiva
+1:3:817:11554,11554,817,Indulto
+1:3:25:11792,11792,25,Livramento Condicional
+1:193:385:11795,11795,385,Procedência do Pedido - Reconhecimento pelo réu
+1:193:385:11796,11796,385,Declaração de competência em conflito
+1:193:385:973:11801,11801,973,Reparação do dano
+1:193:385:11876,11876,385,Absolvição Sumária do art. 397-CPP
+1:193:385:11877,11877,385,Absolvição sumária - crimes dolosos contra a vida
+1:193:385:973:11878,11878,973,Prescrição
+1:193:385:973:11879,11879,973,Decadência ou perempção
+1:3:25:11975,11975,25,Recurso Especial repetitivo
+14:48:11983,11983,48,Retificação de movimento
+1:193:385:973:12028,12028,973,Cumprimento de transação penal
+1:193:385:210:12032,12032,210,Exequatur
+1:3:378:12033,12033,378,Sentença Estrangeira
+1:3:968:12034,12034,968,Exequatur
+1:3:160:12035,12035,160,Representação por ato infracional
+1:3:138:12036,12036,138,Representação por ato infracional
+1:3:1013:12037,12037,1013,Quebra de sigilo fiscal
+1:3:1013:12038,12038,1013,Quebra de sigilo bancário
+1:3:1013:12039,12039,1013,Quebra de sigilo telemático
+1:3:1013:12040,12040,1013,Indisponibilidade de bens
+1:193:385:210:12041,12041,210,Recuperação judicial
+14:48:12065,12065,48,Cumprimento de Suspensão ou Sobrestamento
+14:48:12066,12066,48,Cumprimento de Levantamento da Suspensão ou Dessobrestamento
+1:3:12067,12067,3,Levantamento da Suspensão ou Dessobrestamento
+1:11009:12068,12068,11009,Levantamento da Suspensão ou Dessobrestamento
+1:3:12092,12092,3,Afetação ao rito dos recursos repetitivos 
+1:3:12093,12093,3,Desafetação ao rito dos recursos repetitivos 
+1:3:206:12094,12094,206,Incidente de Resolução de demandas repetitivas (art. 981 e 982)
+1:3:207:12095,12095,207,Incidente de resolução de demandas repetitivas
+1:3:206:12096,12096,206,Incidente de assunção de competência
+1:3:207:12097,12097,207,Incidente de assunção de competência 
+1:3:25:12098,12098,25,Incidente de Resolução de Demandas Repetitivas 
+1:3:25:12099,12099,25,Por decisão do Presidente do STJ -  IRDR
+1:3:25:12100,12100,25,Por decisão do Presidente do STF  - IRDR
+14:48:12103,12103,48,Pauta
+14:48:12103:12104,12104,12103,Inclusão em pauta
+14:48:12103:12105,12105,12103,Inclusão do processo para julgamento eletrônico
+14:48:12103:12106,12106,12103,Adiamento do julgamento (art. 935 do CPC)
+14:48:12103:12105:12107,12107,12105,Para análise de repercussão geral
+14:48:12103:12104:12108,12108,12104,Para análise de repercussão geral
+14:48:12103:12105:12109,12109,12105,Para análise da admissão do recurso repetitivo 
+14:48:12103:12104:12110,12110,12104,Para análise da admissão do recurso repetitivo 
+14:48:12103:12104:12111,12111,12104,Para análise da admissão do IRDR
+14:48:12103:12105:12112,12112,12105,Para análise da admissão do IRDR
+14:48:12103:12105:12113,12113,12105,Para análise da admissão do IAC
+14:48:12103:12104:12114,12114,12104,Para análise da admissão do IAC
+14:48:12103:12104:12115,12115,12104,Para julgamento de mérito
+14:48:12103:12105:12116,12116,12105,Para julgamento de mérito
+1:3:7:12140,12140,7,Prisão em Flagrante em Prisão Preventiva
+1:3:12141,12141,3,Relaxamento do Flagrante
+14:48:12142,12142,48,Mudança de Parte
+14:48:12143,12143,48,Mudança de Assunto Processual
+1:3:12144,12144,3,Unificação e Soma de Penas
+1:3:157:12145,12145,157,Detração/Remição
+1:3:968:12146,12146,968,Liberdade Provisória
+1:3:122:12147,12147,122,Domiciliar
+1:3:817:12148,12148,817,Prisão Domiciliar
+1:3:817:12149,12149,817,Detração/Remição da Pena
+1:3:11:12150,12150,11,Impedimento
+1:3:11:12151,12151,11,Suspeição
+1:3:12164,12164,3,Outras Decisões
+14:48:12165,12165,48,Requisição de Pagamento
+14:48:12165:12166,12166,12165,Precatório
+14:48:12165:12166:12167,12167,12166,Enviada ao Tribunal
+14:48:12165:12166:12168,12168,12166,Preparada para Envio
+14:48:12165:12166:12169,12169,12166,Paga
+14:48:12165:12166:12170,12170,12166,Cancelada
+14:48:12165:12166:12171,12171,12166,Retificado
+14:48:12165:12166:12172,12172,12166,Suspensão
+14:48:12165:12173,12173,12165,Pequeno Valor
+14:48:12165:12173:12174,12174,12173,Enviada ao Tribunal
+14:48:12165:12173:12175,12175,12173,Preparada para Envio
+14:48:12165:12173:12176,12176,12173,Paga
+14:48:12165:12173:12177,12177,12173,Cancelada
+14:48:12165:12173:12178,12178,12173,Retificada
+14:48:12165:12173:12179,12179,12173,Suspensão
+1:3:817:11395:12180,12180,11395,Prestação de Serviços à Comunidade
+1:3:817:11395:12181,12181,11395,Reparação do Dano
+1:3:817:11395:12182,12182,11395,Liberdade Assistida
+1:3:817:11395:12183,12183,11395,Justiça Restaurativa
+1:193:218:12184,12184,218,Suspensão Condicional do Processo
+1:3:12185,12185,3,Decisão Interlocutória de Mérito
+14:48:12186,12186,48,Cancelamento de Distribuição
+1:193:385:12187,12187,385,Homologação de Decisão de Juiz Leigo
+1:3:1008:12188,12188,1008,Recambiamento de Preso
+14:48:12189,12189,48,Entrega de Documento
+14:48:12198,12198,48,Deliberado em Sessão
+14:48:12198:12199,12199,12198,Julgado
+14:48:12198:12199:12200,12200,12199,Mérito
+14:48:12198:12199:12201,12201,12199,Liminar
+14:48:12198:12199:12202,12202,12199,Questão de Ordem
+14:48:12198:12203,12203,12198,Adiado
+14:48:12198:12204,12204,12198,Pedido de Vista
+14:48:12198:12205,12205,12198,Retirado
+1:3:12206,12206,3,Ratificação
+1:3:12206:12207,12207,12206,Liminar
+1:3:12208,12208,3,Não-Ratificação
+1:3:12208:12209,12209,12208,Liminar
+1:3:12210,12210,3,Ratificação em Parte
+1:3:12210:12211,12211,12210,Liminar
+14:48:12198:12199:12212,12212,12199,Prorrogação de PAD
+1:3:12206:12213,12213,12206,Decisão Monocrática
+14:48:12214,12214,48,Processo Encaminhado
+14:48:12215,12215,48,Processo devolvido à Secretaria
+1:193:385:12252,12252,385,Sentença confirmada
+1:193:385:12253,12253,385,Sentença confirmada em parte
+1:193:385:12254,12254,385,Sentença desconstituída
+1:3:1013:12255,12255,1013,Redistribuição por prevenção
+1:193:218:456:12256,12256,456,Continência
+1:193:385:12257,12257,385,Definição de tese jurídica em incidentes repetitivos
+1:193:385:12258,12258,385,Emissão de juízo de retratação pelo Órgão Julgador
+1:3:25:12259,12259,25,"Prescrição intercorrente (art. 921, § 4º, CPC)"
+14:48:12260,12260,48,Autos restaurados
+1:3:160:12261,12261,160,Emenda a inicial
+14:48:12263,12263,48,Intimação
+14:48:12263:12264,12264,12263,Eletrônica
+14:48:12263:12264:12265,12265,12264,Expedida/certificada
+14:48:12263:12264:12266,12266,12264,Confirmada
+14:48:12263:12267,12267,12263,Em audiência
+14:48:12263:12268,12268,12263,Em Secretaria
+14:48:12269,12269,48,Desentranhamento
+14:48:12269:12270,12270,12269,Documento
+14:48:12269:12271,12271,12269,Petição
+14:48:12198:12272,12272,12198,Declinada a competência
+14:48:12198:12273,12273,12198,Convertido em diligência
+14:48:12198:12274,12274,12198,Sobrestado
+14:48:12198:12275,12275,12198,Retificado
+14:48:12276,12276,48,Cumprimento da pena
+14:48:12276:12277,12277,12276,Início
+14:48:12276:12278,12278,12276,Fim
+14:48:12276:12280,12280,12276,Interrupção
+14:48:12281,12281,48,Comunicação eletrônica
+14:48:12281:12282,12282,12281,Expedida/Certificada
+14:48:12281:12283,12283,12281,Confirmada
+14:48:12284,12284,48,Citação
+14:48:12284:12285,12285,12284,Em Secretaria/Comparecimento Espontâneo
+14:48:12284:12286,12286,12284,Eletrônica
+14:48:12284:12286:12287,12287,12286,Expedida/Certificada
+14:48:12284:12286:12288,12288,12286,Confirmada
+14:48:12289,12289,48,Cancelamento
+14:48:12289:12290,12290,12289,Documento Expedido
+14:48:12289:12291,12291,12289,Movimentação processual
+14:48:12292,12292,48,Ato cumprido pela parte ou interessado
+14:48:12292:12293,12293,12292,Ato cumprido pela parte ou interessado (sem atributo)
+14:48:12292:12294,12294,12292,Comparecimento do Réu/Apenado
+14:48:12292:12295,12295,12292,Depósito de Bens/Dinheiro
+14:18:12296,12296,18,Registro
+14:18:12297,12297,18,Atribuição de competência
+1:193:218:456:12298,12298,456,Cancelamento de Dívida Ativa
+1:3:12299,12299,3,Prorrogação de cumprimento de pena/medida de segurança
+1:3:12300,12300,3,Nomeação
+1:3:12300:12301,12301,12300,Advogado Voluntário
+1:3:12300:12302,12302,12300,Curador
+1:3:12300:12303,12303,12300,Defensor Dativo
+1:3:12300:12304,12304,12300,Intérprete/Tradutor
+1:3:12300:12305,12305,12300,Outros auxiliares de justiça
+1:3:12300:12306,12306,12300,Perito
+1:3:12307,12307,3,Decretação de revelia
+1:3:817:12308,12308,817,Substituição/Sucessão
+14:48:12103:12309,12309,12103,Retirada
+1:11009:12310,12310,11009,Pauta
+1:11009:12310:12311,12311,12310,Pedido de inclusão
+1:11009:12310:12312,12312,12310,Retirar pedido de inclusão
+1:11009:12310:12313,12313,12310,Pedido de inclusão em pauta virtual
+1:11009:12310:12314,12314,12310,Retirar pedido de pauta virtual
+14:48:12315,12315,48,Devolvidos os autos
+14:48:12316,12316,48,Notificação Inicial
+14:48:12317,12317,48,Notificação inicial com liminar
+1:3:12318,12318,3,Reconhecimento de prevenção
+1:193:218:12319,12319,218,Não conhecimento do pedido
+1:3:12320,12320,3,Denegação de prevenção
+1:193:385:12321,12321,385,Parecer
+1:193:385:12321:12322,12322,12321,Favorável
+1:193:385:12321:12323,12323,12321,Favorável em parte
+1:193:385:12321:12324,12324,12321,Desfavorável
+1:193:218:456:12325,12325,456,Perda do objeto
+1:193:385:12326,12326,385,Consulta
+1:193:385:12326:12327,12327,12326,Respondida
+1:193:385:12326:12328,12328,12326,Respondida em parte
+1:193:385:12329,12329,385,Pedido conhecido em parte e procedente
+1:193:385:12330,12330,385,Pedido conhecido em parte e procedente em parte
+1:193:385:12331,12331,385,Pedido conhecido em parte e improcedente
+1:3:12332,12332,3,Prorrogado prazo de conclusão
+1:3:12359,12359,3,Liminar Prejudicada
+1:3:12387,12387,3,Decisão de Saneamento e Organização
+1:3:1013:12421,12421,1013,Juízo provisório para medidas urgentes
+1:3:1013:12422,12422,1013,Devolução da carta rogatória ao juízo rogante
+1:3:12425,12425,3,Unificação de Medidas Socioeducativas
+1:3:207:12427,12427,207,Agravo em recurso especial 
+1:3:206:12428,12428,206,Reclamação
+1:3:206:12429,12429,206,Embargos de Divergência
+1:3:1013:12430,12430,1013,Arquivamento
+1:3:206:12431,12431,206,Embargos 
+1:3:12432,12432,3,Afetação
+1:193:385:12433,12433,385,Conjunto Agravo e Recurso Especial
+1:193:385:12433:12434,12434,12433,Conhecimento para dar provimento ao Recurso Especial 
+1:193:385:12433:12435,12435,12433,Conhecimento para negar provimento ao recurso especial
+1:193:385:12433:12436,12436,12433,Conhecimento para não conhecer do Recurso Especial
+1:193:385:12433:12437,12437,12433,Conhecimento para determinar sua autuação como Recurso Especial
+1:193:385:12433:12438,12438,12433,conhecimento para dar parcial provimento ao recurso especial
+1:193:385:12433:12439,12439,12433,conhecimento para conhecer em parte o recurso especial e dar provimento 
+1:193:385:12433:12440,12440,12433,conhecimento para conhecer em parte o recurso especial e negar provimento
+1:193:385:12433:12441,12441,12433,Conhecimento para conhecer o recurso especial
+1:193:385:12433:12442,12442,12433,conhecimento para conhecer em parte o recurso especial 
+1:193:385:12433:12443,12443,12433,conhecimento em parte para dar provimento ao recurso especial
+1:3:12444,12444,3,deferimento
+1:3:206:12445,12445,206,Recurso Ordinário
+1:3:206:12446,12446,206,Afetação tornada sem efeito
+1:3:1008:12447,12447,1008,pagamento
+1:3:1013:12448,12448,1013,Demonstração de existência de repercussão geral e  manifestação sobre a questão constitucional
+1:11009:11010:12449,12449,11010,expedição de alvará de levantamento
+1:193:385:12450:12451,12451,12450,Procedência
+1:193:385:12450:12452,12452,12450,procedência parcial
+1:193:385:12450:12453,12453,12450,improcedência
+1:3:206:12454,12454,206,Pedido de Uniformização de Interpretação de Lei
+1:3:12455,12455,3,Indeferimento
+1:3:207:12456,12456,207,Recurso Ordinário
+1:3:1013:12457,12457,1013,Expedição de precatório/rpv
+1:193:218:12458,12458,218,Não conhecimento do habeas corpus
+1:193:218:12459,12459,218,Prejudicado
+1:3:378:12467,12467,378,Desistência de pedido
+1:3:1013:12472,12472,1013,Devolução dos autos à origem 
+1:3:7:12473,12473,7,agravo em recurso especial 
+1:3:1013:12474,12474,1013,Distribuição
+1:193:385:210:12475,12475,210,Habeas Corpus de ofício
+1:3:378:12476,12476,378,Medida protetiva determinada por autoridade policial
+1:3:12477,12477,3,Não-Homologação
+1:3:12477:12478,12478,12477,Medida protetiva determinada por autoridade policia
+1:3:157:12479,12479,157,Medida protetiva determinada por autoridade policia
+14:12522,12522,14,Auxiliar da Justiça
+14:12522:12523,12523,12522,Conciliador
+14:12522:12524,12524,12522,Juiz Leigo
+14:12522:12525,12525,12522,Mediador
+14:12522:12525:12526,12526,12525,Conciliação
+14:12522:12525:12527,12527,12525,Mediação
+14:12522:12523:12528,12528,12523,Conciliação
+14:12522:12524:12529,12529,12524,Decisão
+14:12522:12524:12530,12530,12524,Conciliação
+14:12522:12523:12528:12531,12531,12528,Frutífera
+14:12522:12523:12528:12532,12532,12528,Infrutífera
+14:12522:12524:12530:12533,12533,12530,Frutífera
+14:12522:12524:12530:12534,12534,12530,Infrutífera
+1:11009:12548,12548,11009,Expedição de alvará de levantamento
+14:48:12606,12606,48,Remessa negociação consumidor.gov.br
+14:48:12607,12607,48,Recebimento negociação consumidor.gov.br
+14:12522:12523:12528:12608,12608,12528,Parcial
+14:12522:12524:12530:12609,12609,12530,Parcial
+14:48:12614,12614,48,Remessa para o CEJUSC
+1:193:385:12615,12615,385,Composição Civil
+1:193:385:973:12616,12616,973,Composição Civil dos Danos
+1:193:218:456:12617,12617,456,Renúncia
+14:48:12618,12618,48,Remessa CEJUSC
+14:48:12619,12619,48,Recebimento do CEJUSC 
+14:48:12621,12621,48,Recebimento no CEJUSC
+14:48:12622,12622,48,Remessa para Câmara de Conciliação/Mediação
+14:48:12623,12623,48,Recebimento de Câmara de Conciliação/Mediação
+14:48:970:12624,12624,970,Audiência do art. 334 CPC
+1:3:1013:12646,12646,1013,Determinada a Redistribuição
+1:3:12647,12647,3,Mantida a Distribuição do Processo
+1:3:1013:12648,12648,1013,Determinação de Diligência
+1:193:385:12649,12649,385,Homologado o Pedido
+1:193:385:12650,12650,385,Não Homologado o Pedido
+1:193:385:12651,12651,385,Contas Não Prestação
+1:193:385:12652,12652,385,Contas Aprovadas
+1:193:385:12653,12653,385,Contas Desaprovadas
+1:193:385:12654,12654,385,Contas Aprovadas com Ressalvas
+14:48:12655,12655,48,Identificada Possível Dissidência Partidária
+14:48:12657,12657,48,Partido Movimentado
+14:48:12658,12658,48,Sistema de Candidaturas Fechado
+14:48:12659,12659,48,Totalização de Eleições Efetuada
+1:193:385:12660,12660,385,Deferimento do Pedido de Registro de Candidatura
+1:193:385:12661,12661,385,Impugnação do Registro de Candidatura
+1:193:385:12662,12662,385,Cassação do Registro de Candidatura
+1:193:385:12663,12663,385,Cancelamento do Pedido de Registro de Candidatura
+1:193:385:12664,12664,385,Movimentar Partido
+1:193:385:12665,12665,385,Procedência da Impugnação (Registro Deferido)
+1:193:385:12661:12666,12666,12661,Procedência da Impugnação (Registro Deferido)
+1:193:385:12661:12667,12667,12661,Procedência da Impugnação (Registro Indeferido)
+1:193:385:12661:12668,12668,12661,Procedência em Parte da Impugnação (Registro Deferido)
+1:193:385:12661:12669,12669,12661,Procedência em Parte da Impugnação (Registro Indeferido)
+1:193:385:12661:12670,12670,12661,Procedência em Parte da Impugnação (Registro Cancelado)
+1:193:385:12661:12672,12672,12661,Procedência em Parte da Impugnação (Registro Cassado)
+1:193:385:12661:12673,12673,12661,Não-Procedência da Impugnação (Registro Deferido)
+1:193:385:12661:12674,12674,12661,Não-Procedência da Impugnação (Registro Indeferido)
+1:193:385:12661:12675,12675,12661,Não-Procedência da Impugnação (Registro Cancelado)
+1:193:385:12661:12676,12676,12661,Não-Procedência da Impugnação (Registro Cassado)
+1:193:385:12661:12677,12677,12661,Procedência da Impugnação (Registro Cancelado)
+1:193:385:12678:12679,12679,12678,Provimento (Registro Deferido)
+1:193:385:12678:12680,12680,12678,Provimento (Registro Indeferido)
+1:193:385:12678:12681,12681,12678,Provimento (Registro Cancelado)
+1:193:385:12678:12682,12682,12678,Provimento (Registro Cassado)
+1:193:385:12678:12683,12683,12678,Provimento (Registro Sem Julgamento)
+1:193:385:12678:12684,12684,12678,Provimento em Parte (Registro Deferido)
+1:193:385:12678:12685,12685,12678,Provimento em Parte (Registro Indeferido)
+1:193:385:12678:12686,12686,12678,Provimento em Parte (Registro Cancelado)
+1:193:385:12678:12687,12687,12678,Provimento em Parte (Registro Cassado)
+1:193:385:12678:12688,12688,12678,Provimento em Parte (Registro Sem Julgamento)
+1:193:385:12678:12689,12689,12678,Não-Provimento (Registro Deferido)
+1:193:385:12678:12690,12690,12678,Não-Provimento (Registro Indeferido)
+1:193:385:12678:12691,12691,12678,Não-Provimento (Registro Cancelado)
+1:193:385:12678:12692,12692,12678,Não-Provimento (Registro Cassado)
+1:193:385:12678:12693,12693,12678,Não-Provimento (Registro Sem Julgamento)
+1:193:385:12678:12694,12694,12678,Acolhimento (Registro Deferido)
+1:193:385:12678:12695,12695,12678,Acolhimento (Registro Indeferido)
+1:193:385:12678:12696,12696,12678,Acolhimento (Registro Cancelado)
+1:193:385:12678:12697,12697,12678,Acolhimento (Registro Cassado)
+1:193:385:12678:12698,12698,12678,Acolhimento (Registro Sem Julgamento)
+1:193:385:12678:12699,12699,12678,Não-Acolhimento (Registro Deferido)
+1:193:385:12678:12700,12700,12678,Não-Acolhimento (Registro Indeferido)
+1:193:385:12678:12701,12701,12678,Não-Acolhimento (Registro Cancelado)
+1:193:385:12678:12702,12702,12678,Não-Acolhimento (Registro Cassado)
+1:193:385:12678:12703,12703,12678,Não-Acolhimento (Registro Sem Julgamento)
+1:193:385:12678:12704,12704,12678,Anulação de Acórdão (Registro Deferido)
+1:193:385:12678:12705,12705,12678,Anulação de Acórdão (Registro Indeferido)
+1:193:385:12678:12706,12706,12678,Anulação de Acórdão (Registro Cancelado)
+1:193:385:12678:12707,12707,12678,Anulação de Acórdão (Registro Cassado)
+1:193:385:12678:12708,12708,12678,Anulação de Acórdão (Registro Sem Julgamento)
+1:193:218:12709:12710,12710,12709,Anulação de Acórdão (Registro Deferido)
+1:193:218:12709:12711,12711,12709,Anulação de Acórdao (Registro Indeferido)
+1:193:218:12709:12712,12712,12709,Anulação de Acórdão (Registro Cancelado)
+1:193:218:12709:12713,12713,12709,Anulação de Acórdão (Registro Cassado)
+1:193:218:12709:12714,12714,12709,Anulação de Acórdão (Registro Sem Julgamento)
+1:193:218:12709:12715,12715,12709,Não Conhecimento (Registro Deferido)
+1:193:218:12709:12716,12716,12709,Não Conhecimento (Registro Indeferido)
+1:193:218:12709:12717,12717,12709,Não Conhecimento (Registro Cancelado)
+1:193:218:12709:12718,12718,12709,Não Conhecimento (Registro Cassado)
+1:193:218:12709:12719,12719,12709,Não Conhecimento (Registro Sem Julgamento)
+1:193:218:12709:12720,12720,12709,Negação de Seguimento (Registro Deferido)
+1:193:218:12709:12721,12721,12709,Negação de Seguimento (Registro Indeferido)
+1:193:218:12709:12722,12722,12709,Negação de Seguimento (Registro Cancelado)
+1:193:218:12709:12723,12723,12709,Negação de Seguimento (Registro Cassado)
+1:193:218:12709:12724,12724,12709,Negação de Seguimento (Registro Sem Julgamento)
+1:3:378:12733,12733,378,Homologação do Acordo de Não Persecução Penal
+1:3:157:12734,12734,157,Revogação do Acordo de Não Persecução Penal
+1:193:385:973:12735,12735,973,Extinção de Punibilidade em Razão do Cumprimento de Acordo de Não Persecução Penal
+1:3:12736,12736,3,Unificação de Processos de Execução
+1:3:157:12737,12737,157,Revogação da Suspensão Condicional do Processo
+1:193:385:12738,12738,385,Homologação de Transação Penal
+14:48:970:12739,12739,970,Admonitória
+14:48:970:12740,12740,970,de Conciliação
+14:48:970:12741,12741,970,de Acolhimento
+14:48:970:12742,12742,970,de Custódia
+14:48:970:12743,12743,970,de Interrogatório
+14:48:970:12744,12744,970,de Justificação
+14:48:970:12745,12745,970,do art. 16 da Lei 11.340
+14:48:970:12746,12746,970,em Execução
+14:48:970:12747,12747,970,Inicial
+14:48:970:12749,12749,970,de Instrução
+14:48:970:12750,12750,970,de Instrução e Julgamento
+14:48:970:12751,12751,970,de Julgamento
+14:48:970:12752,12752,970,de Mediação
+14:48:970:12753,12753,970,Preliminar
+14:48:12759,12759,48,Realização de Procedimento Restaurativo
+1:3:12765:12766,12766,12765,Por Divergência de Entendimento com o STF
+1:3:12765:12767,12767,12765,Por Divergência de Entendimento com Tribunal Superior
+1:3:12768,12768,3,Manutenção de Acórdão
+1:3:12769,12769,3,Desclassificação de Delito
+1:193:385:12661:12792,12792,12661,Procedência da Impugnação (Registro Cassado)
+14,14,0,Serventuário
+14:15,15,14,Contador
+14:18,18,14,Distribuidor
+14:104,104,14,Oficial de Justiça
+1:11009:11021,11021,11009,Conversão
+1:11009:11023,11023,11009,Concessão
+14:865:12029,12029,865,Recebe Teste
+14:48:12101,12101,48,Inclusão do processo para julgamento eletrônico
+14:48:12102,12102,48,"Adiamento do julgamento (CPC, art. 935)"
+1:3:12163,12163,3,Outras Decisões
+1:3:160:12262,12262,160,Emenda a inicial
+14:48:12276:12279,12279,12276,Fim
+1:193:385:12450,12450,385,impugnação à execução
+14:12522:12525:12526:12535,12535,12526,Frutífera
+14:12522:12525:12526:12536,12536,12526,Infrutífera
+14:12522:12525:12527:12537,12537,12527,Não-realizada
+14:12522:12525:12527:12537:12538,12538,12537,Infrutífera
+14:12522:12525:12527:12539,12539,12527,Infrutífera
+14:12522:12525:12527:12540,12540,12527,Frutífera
+14:12522:12525:12526:12610,12610,12526,Parcial
+14:12522:12525:12527:12611,12611,12527,Parcial
+14:48:12655:12656,12656,12655,Partido Movimentado
+1:193:385:12661:12670:12671,12671,12670,Procedência em Parte da Impugnação (Registro Cassado)
+1:193:385:12678,12678,385,Registro de Candidatura
+1:193:218:12709,12709,218,Registro de Candidatura
+14:48:970:12747:12748,12748,12747,de Instrução
+1:3:12765,12765,3,Envio para Juízo de Retratação 

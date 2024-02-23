@@ -1,0 +1,47 @@
+	EVENT_LOG	PERCENT_FILT	VARIANTS_BEFORE	VARIANTS_AFTER
+0	Production_Data.xes.gz	0.2	221	44
+1	4a_VARA_DE_SUCESSOES_E_REGISTROS_PUBLICOS_DA_CAPITAL_-_TJPE.xes	0.3	36	10
+2	edited_hh104_labour.xes.gz	0.3	43	12
+3	3a_VARA_DE_EXECUCOES_FISCAIS_DA_COMARCA_DE_FORTALEZA_-_TJCE.xes	0.1	53	5
+4	activitylog_uci_detailed_labour.xes.gz	0.2	25	5
+5	activitylog_uci_detailed_weekends.xes.gz	0.1	10	1
+6	edited_hh102_labour.xes.gz	0.2	18	3
+7	VITORIA_-_5a_VARA_CIVEL_-_TJES.xes	0.1	206	20
+8	Receipt phase of an environmental permit application process (_WABO_) CoSeLoG project.xes.gz	0.1	116	11
+9	3a_VARA_DE_FAMILIA_E_REGISTRO_CIVIL_DA_COMARCA_DE_OLINDA_-_TJPE.xes	0.3	33	9
+10	PRIMEIRA_VARA_CRIMINAL_-_COMARCA_DE_VARZEA_GRANDE_-_SDCR_-_TJMT.xes	0.3	47	14
+11	BPI_Challenge_2014_Control summary.xes.gz	0.3	59	17
+12	8_a_VARA_CIVEL_DE_ARACAJU_-_TJSE.xes	0.2	495	99
+13	BPI_Challenge_2014_Department control parcels.xes.gz	0.2	349	69
+14	4a_VARA_CIVEL_-_TJGO.xes	0.3	98	29
+15	VARA_DA_FAZENDA_PUBLICA_DA_COMARCA_DE_PAULISTA_-_TJPE.xes	0.1	112	11
+16	BPI_Challenge_2014_Entitlement application.xes.gz	0.2	2553	510
+17	BPI_Challenge_2014_Inspection.xes.gz	0.2	3190	638
+18	BPI_Challenge_2014_Geo parcel document.xes.gz	0.2	9274	1854
+19	BPI_Challenge_2012.xes.gz	0.3	4366	1309
+20	3a_VARA_DE_FEITOS_TRIBUTARIOS_DO_ESTADO_-_TJMG.xes	0.3	35	10
+21	BPI_Challenge_2020_InternationalDeclarations.xes.gz	0.3	753	225
+22	edited_hh110_labour.xes.gz	0.1	21	2
+23	1a_VARA_DE_FEITOS_TRIBUTARIOS_DO_ESTADO_-_TJMG.xes	0.1	28	2
+24	QUARTA_VARA_CRIMINAL_-_COMARCA_DE_VARZEA_GRANDE_-_SDCR_-_TJMT.xes	0.2	52	10
+25	edited_hh104_weekends.xes.gz	0.2	18	3
+26	1a_VARA_CRIMINAL_DA_CAPITAL_-_TJAM.xes	0.2	128	25
+27	2A._VARA_DE_EXECUTIVO_FISCAL_JOAO_PESSOA_-_TJPB.xes	0.3	227	68
+28	VARA_DE_SUCESSOES_DE_CAMPINA_GRANDE_-_TJPB.xes	0.2	25	5
+29	BPI_Challenge_2020_PrepaidTravelCost.xes.gz	0.3	202	60
+30	JUIZO_DA_1a_ESCRIVANIA_CRIMINAL_DE_ARAPOEMA_-_TJTO.xes	0.1	41	4
+31	BPI_Challenge_2014_Reference alignment.xes.gz	0.2	515	103
+32	Hospital Billing - Event Log.xes.gz	0.1	1020	102
+33	COLOMBO_-_VARA_DA_FAZENDA_PUBLICA_-_TJPR.xes	0.3	395	118
+34	Road_Traffic_Fine_Management_Process.xes.gz	0.2	231	46
+35	BPI_Challenge_2020_PermitLog.xes.gz	0.1	1478	147
+36	BPI_Challenge_2019_log_IEEE.xes.gz	0.1	11973	1197
+37	SETIMA_VARA_CIVEL_-_COMARCA_DA_CAPITAL_-_SDCR_-_TJMT.xes	0.2	149	29
+38	Sepsis Cases - Event Log.xes.gz	0.3	846	253
+39	4_a_VARA_CIVEL_DE_ARACAJU_-_TJSE.xes	0.2	456	91
+40	BPI_Challenge_2013_open_problems.xes.gz	0.3	108	32
+41	BPI_Challenge_2013_incidents.xes.gz	0.1	1511	151
+42	BPI Challenge 2017.xes.gz	0.1	15930	1593
+43	BPI_Challenge_2020_DomesticDeclarations.xes.gz	0.1	99	9
+44	5a_VARA_CIVEL_-_TJMT.xes	0.1	29	2
+45	VARA_DE_SUCESSOES_E_REGISTROS_PUBLICOS_DA_COMARCA_DE_JABOATAO_DOS_GUARARAPES_-_TJPE.xes	0.2	28	5

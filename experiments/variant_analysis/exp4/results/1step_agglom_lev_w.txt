@@ -1,0 +1,183 @@
+time: 390.708
+
+Percent dendrogram cut: 0.3
+
+ARI: 0.6498773233942015
+
+V-measure: 0.8015588805952187
+
+wp: 2
+
+wn: 3
+
+ws: 2.5
+
+traces: ['ABCDEFGLMGMJO', 'ABCDEFGMLJK', 'ABCDEFMGNLJKF', 'ABCDEFNJK', 'ABCDEFNJKO', 'ABCDEFNJO', 'ABCDEFNJOK', 'ABCDEFNLMGJKF', 'ABCDEFNMLGJKF', 'ABCEDFLMGJKO', 'ABCEDFLMGJOK', 'ABCEDFMGLLMGJOK', 'ABCEDFMGNLJKF', 'ABCEDFMGNLNMLGNLMGMGNLJKF', 'ABCEDFMNLGMNGLJKF', 'ABCEDFNJKO', 'ABCEDFNJOK', 'ABCEDFNLMGJKF', 'ABCEDFNMLGNMGLJKF', 'ABDCEFGMLGMGMJK', 'ABDCEFLGMJK', 'ABDCEFLMGJOK', 'ABDCEFLMGLMGJKO', 'ABDCEFLMGLMGJOK', 'ABDCEFLMGLMGMGLJOK', 'ABDCEFLMGMLGJKO', 'ABDCEFMGLJKO', 'ABDCEFMGLJOK', 'ABDCEFMGNLJKF', 'ABDCEFMGNLMNLGMNGLJKF', 'ABDCEFMLGJOK', 'ABDCEFMLGMGLLMGJKO', 'ABDCEFMNGLJKF', 'ABDCEFMNGLNLMGMNLGMGNLJKF', 'ABDCEFMNLGJKF', 'ABDCEFMNLGNLMGMGNLJKF', 'ABDCEFNJO', 'ABDCEFNJOK', 'ABDCEFNLMGJKF', 'ABDCEFNMGLJKF', 'ABDCEFNMGLMGNLJKF', 'ABDCEFNMGLMGNLNLMGJKF', 'ABDCEFNMLGMGNLMGNLJKF', 'ABDECFGMLJK', 'ABDECFLGMGMJK', 'ABDECFNJO', 'ACBDEFLMGJOK', 'ACBDEFLMGMGLLMGLMGJKO', 'ACBDEFMNLGNLMGNMGLJKF', 'ACBDEFNJKO', 'ACBDEFNJOK', 'ACBDEFNLMGMGNLJKF', 'ACBDEFNMLGJKF', 'ACBEDFLMGJOK', 'ACBEDFLMGMLGMLGLMGJOK', 'ACBEDFMGLLMGMGLJOK', 'ACBEDFMGNLJKF', 'ACBEDFMNLGJKF', 'ACBEDFNJOK', 'ACBEDFNMGLMGNLMGNLNLMGMGNLJKF', 'ACEBDFLMGMLGJKO', 'ACEBDFMGLJKO', 'ACEBDFMGLMLGJKO', 'ACEBDFMGLMLGJOK', 'ACEBDFMGNLJKF', 'ACEBDFNJOK', 'ADBCEFGLMJO', 'ADBCEFLGMJO', 'ADBCEFNJO', 'ADBECFGLMGMJK', 'ADBECFLGMJK', 'ADBECFLGMJO', 'ADBECFNJO', 'ADEBCFGMLGMGMJK', 'ADEBCFGMLJO', 'ADEBCFLGMGMGMJO', 'ADEBCFLGMGMJK', 'ADEBCFLGMGMJO', 'PQRABCSGJKZV', 'PQRABGSCJK', 'PQRABGZVSC', 'PQRABSCGJK', 'PQRABSCGZVJK', 'PQRABSGJKC', 'PQRASBCGJK', 'PQRASBGCJK', 'PQRASBGCJZKV', 'PQRASCBGJK', 'PQRASCBGZV', 'PQRASGBCJZVK', 'PQRASGBCZJKV', 'PQRASGZJBVKC', 'PQRBAGZVSC', 'PQRBASCGJK', 'PQRBASGCJK', 'PQRBASGCZ', 'PQRBGJKASC', 'PQRBGZAVSC', 'PQRPQRABCSGJZKV', 'PQRPQRABCSGZJKV', 'PQRPQRABCSGZJVK', 'PQRPQRABSCGJZKV', 'PQRPQRABSGJKCZV', 'PQRPQRASBCGZVJK', 'PQRPQRPQRABCSGZJVK', 'PQRPQRPQRABCSGZVJK', 'PQRPQRPQRABSGZVJKC', 'PQRPQRPQRASGBCZVJK', 'PQRPQRPQRPQRABCSGZJKV', 'PQRPQRPQRPQRABSGJCZVK', 'PQRPQRPQRPQRASBCGZJKV', 'PQRPQRPQRPQRASBGZJKCV', 'PQRPQRPQRPQRPQRSABGCZJVK', 'PQRPQRPQRPQRSGJAZBVKC', 'PQRPQRPQRSGABZCVJK', 'PQRPQRPQRSGZVAJKBC', 'PQRPQRSAGJBKZVC', 'PQRQRABSCGZV', 'PQRQRASBCGZV', 'PQRQRASBGZC', 'PQRQRASCBGJK', 'PQRQRBAGZSVC', 'PQRQRBASCGZ', 'PQRQRBASCGZV', 'PQRQRBASGCZ', 'PQRQRBASGJCK', 'PQRQRBGAZSC', 'PQRQRQRABGZSC', 'PQRQRQRASCBGJK', 'PQRQRQRBGZAVSC', 'PQRQRQRQRBASCGZV', 'PQRQRQRQRBGAZSC', 'PQRQRQRQRQRASBGJCK', 'PQRQRQRQRQRASCBGZV', 'PQRQRQRQRQRQRQRASCBGJK', 'PQRSABCGJKZV', 'PQRSABCGZVJK', 'PQRSABGCJZKV', 'PQRSABGCZJVK', 'PQRSABGJCZKV', 'PQRSABGZCJVK', 'PQRSAGZVBCJK', 'PQRSGAJBZVCK', 'PQRSGAZVBJKC', 'PQRSGZVABJCK']
+
+y_true: [12, 12, 13, 12, 11, 12, 11, 13, 13, 11, 11, 11, 13, 13, 13, 11, 11, 13, 13, 12, 12, 11, 11, 11, 11, 11, 11, 11, 13, 13, 11, 11, 13, 13, 13, 13, 12, 11, 13, 13, 13, 13, 13, 12, 12, 12, 11, 11, 13, 11, 11, 13, 13, 11, 11, 11, 13, 13, 11, 13, 11, 11, 11, 11, 13, 11, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 12, 22, 21, 21, 21, 22, 21, 21, 21, 22, 21, 21, 22, 22, 22, 21, 21, 21, 21, 21, 21, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 21, 22, 22, 22, 22, 22, 22, 22, 22, 22, 22]
+
+y_pred: [11, 11, 10, 9, 9, 9, 9, 10, 10, 12, 12, 12, 10, 7, 10, 9, 9, 10, 10, 11, 11, 12, 12, 12, 12, 12, 12, 12, 10, 10, 12, 12, 10, 10, 10, 10, 9, 9, 10, 10, 10, 10, 10, 11, 11, 9, 12, 12, 10, 9, 9, 10, 10, 12, 12, 12, 10, 10, 9, 8, 12, 12, 12, 12, 10, 9, 11, 11, 9, 11, 11, 11, 9, 11, 11, 11, 11, 11, 6, 5, 4, 5, 6, 5, 5, 5, 6, 5, 4, 6, 6, 6, 4, 5, 5, 4, 5, 4, 6, 6, 6, 6, 6, 6, 1, 1, 1, 1, 1, 1, 1, 1, 2, 1, 1, 1, 6, 4, 4, 4, 5, 4, 4, 4, 4, 5, 4, 4, 5, 4, 3, 4, 0, 3, 0, 6, 6, 6, 6, 6, 6, 6, 6, 6, 6]
+
+df_distrib:        P1V1  P1V2  P1V3  P2V1  P2V2
+index                              
+0         0     0     0     2     0
+1         0     0     0     0    11
+2         0     0     0     0     1
+3         0     0     0     2     0
+4         0     0     0    16     0
+5         0     0     0    12     0
+6         0     0     0     0    23
+7         0     0     1     0     0
+8         0     0     1     0     0
+9         9     6     0     0     0
+10        0     0    24     0     0
+11        0    16     0     0     0
+12       21     0     0     0     0
+
+dict_gd: {11: {'G12': ['ABCDEFGLMGMJO', 'ABCDEFGMLJK', 'ABDCEFGMLGMGMJK', 'ABDCEFLGMJK', 'ABDECFGMLJK', 'ABDECFLGMGMJK', 'ADBCEFGLMJO', 'ADBCEFLGMJO', 'ADBECFGLMGMJK', 'ADBECFLGMJK', 'ADBECFLGMJO', 'ADEBCFGMLGMGMJK', 'ADEBCFGMLJO', 'ADEBCFLGMGMGMJO', 'ADEBCFLGMGMJK', 'ADEBCFLGMGMJO']}, 10: {'G13': ['ABCDEFMGNLJKF', 'ABCDEFNLMGJKF', 'ABCDEFNMLGJKF', 'ABCEDFMGNLJKF', 'ABCEDFMNLGMNGLJKF', 'ABCEDFNLMGJKF', 'ABCEDFNMLGNMGLJKF', 'ABDCEFMGNLJKF', 'ABDCEFMGNLMNLGMNGLJKF', 'ABDCEFMNGLJKF', 'ABDCEFMNGLNLMGMNLGMGNLJKF', 'ABDCEFMNLGJKF', 'ABDCEFMNLGNLMGMGNLJKF', 'ABDCEFNLMGJKF', 'ABDCEFNMGLJKF', 'ABDCEFNMGLMGNLJKF', 'ABDCEFNMGLMGNLNLMGJKF', 'ABDCEFNMLGMGNLMGNLJKF', 'ACBDEFMNLGNLMGNMGLJKF', 'ACBDEFNLMGMGNLJKF', 'ACBDEFNMLGJKF', 'ACBEDFMGNLJKF', 'ACBEDFMNLGJKF', 'ACEBDFMGNLJKF']}, 9: {'G12': ['ABCDEFNJK', 'ABCDEFNJO', 'ABDCEFNJO', 'ABDECFNJO', 'ADBCEFNJO', 'ADBECFNJO'], 'G11': ['ABCDEFNJKO', 'ABCDEFNJOK', 'ABCEDFNJKO', 'ABCEDFNJOK', 'ABDCEFNJOK', 'ACBDEFNJKO', 'ACBDEFNJOK', 'ACBEDFNJOK', 'ACEBDFNJOK']}, 12: {'G11': ['ABCEDFLMGJKO', 'ABCEDFLMGJOK', 'ABCEDFMGLLMGJOK', 'ABDCEFLMGJOK', 'ABDCEFLMGLMGJKO', 'ABDCEFLMGLMGJOK', 'ABDCEFLMGLMGMGLJOK', 'ABDCEFLMGMLGJKO', 'ABDCEFMGLJKO', 'ABDCEFMGLJOK', 'ABDCEFMLGJOK', 'ABDCEFMLGMGLLMGJKO', 'ACBDEFLMGJOK', 'ACBDEFLMGMGLLMGLMGJKO', 'ACBEDFLMGJOK', 'ACBEDFLMGMLGMLGLMGJOK', 'ACBEDFMGLLMGMGLJOK', 'ACEBDFLMGMLGJKO', 'ACEBDFMGLJKO', 'ACEBDFMGLMLGJKO', 'ACEBDFMGLMLGJOK']}, 7: {'G13': ['ABCEDFMGNLNMLGNLMGMGNLJKF']}, 8: {'G13': ['ACBEDFNMGLMGNLMGNLNLMGMGNLJKF']}, 6: {'G22': ['PQRABCSGJKZV', 'PQRABSCGZVJK', 'PQRASBGCJZKV', 'PQRASGBCJZVK', 'PQRASGBCZJKV', 'PQRASGZJBVKC', 'PQRPQRABCSGJZKV', 'PQRPQRABCSGZJKV', 'PQRPQRABCSGZJVK', 'PQRPQRABSCGJZKV', 'PQRPQRABSGJKCZV', 'PQRPQRASBCGZVJK', 'PQRPQRSAGJBKZVC', 'PQRSABCGJKZV', 'PQRSABCGZVJK', 'PQRSABGCJZKV', 'PQRSABGCZJVK', 'PQRSABGJCZKV', 'PQRSABGZCJVK', 'PQRSAGZVBCJK', 'PQRSGAJBZVCK', 'PQRSGAZVBJKC', 'PQRSGZVABJCK']}, 5: {'G21': ['PQRABGSCJK', 'PQRABSCGJK', 'PQRABSGJKC', 'PQRASBCGJK', 'PQRASBGCJK', 'PQRASCBGJK', 'PQRBASCGJK', 'PQRBASGCJK', 'PQRBGJKASC', 'PQRQRASCBGJK', 'PQRQRBASGJCK', 'PQRQRQRASCBGJK']}, 4: {'G21': ['PQRABGZVSC', 'PQRASCBGZV', 'PQRBAGZVSC', 'PQRBASGCZ', 'PQRBGZAVSC', 'PQRQRABSCGZV', 'PQRQRASBCGZV', 'PQRQRASBGZC', 'PQRQRBAGZSVC', 'PQRQRBASCGZ', 'PQRQRBASCGZV', 'PQRQRBASGCZ', 'PQRQRBGAZSC', 'PQRQRQRABGZSC', 'PQRQRQRBGZAVSC', 'PQRQRQRQRBGAZSC']}, 1: {'G22': ['PQRPQRPQRABCSGZJVK', 'PQRPQRPQRABCSGZVJK', 'PQRPQRPQRABSGZVJKC', 'PQRPQRPQRASGBCZVJK', 'PQRPQRPQRPQRABCSGZJKV', 'PQRPQRPQRPQRABSGJCZVK', 'PQRPQRPQRPQRASBCGZJKV', 'PQRPQRPQRPQRASBGZJKCV', 'PQRPQRPQRPQRSGJAZBVKC', 'PQRPQRPQRSGABZCVJK', 'PQRPQRPQRSGZVAJKBC']}, 2: {'G22': ['PQRPQRPQRPQRPQRSABGCZJVK']}, 3: {'G21': ['PQRQRQRQRBASCGZV', 'PQRQRQRQRQRASCBGZV']}, 0: {'G21': ['PQRQRQRQRQRASBGJCK', 'PQRQRQRQRQRQRQRASCBGJK']}}
+
+Z: [[ 66.          67.           2.           2.        ]
+ [ 69.          70.           2.           2.        ]
+ [ 75.          77.           2.           2.        ]
+ [  1.          43.           2.           2.        ]
+ [  2.          12.           2.           2.        ]
+ [  5.          36.           2.           2.        ]
+ [  4.           6.           2.           2.        ]
+ [ 15.          16.           2.           2.        ]
+ [ 37.          50.           2.           2.        ]
+ [ 58.          65.           2.           2.        ]
+ [  7.           8.           2.           2.        ]
+ [ 17.          38.           2.           2.        ]
+ [  9.          10.           2.           2.        ]
+ [ 21.          27.           2.           2.        ]
+ [ 46.          53.           2.           2.        ]
+ [ 30.         158.           2.           3.        ]
+ [ 22.          23.           2.           2.        ]
+ [ 28.         149.           2.           3.        ]
+ [ 32.          39.           2.           2.        ]
+ [ 56.          57.           2.           2.        ]
+ [ 44.          76.           2.           2.        ]
+ [ 62.          63.           2.           2.        ]
+ [ 45.         150.           2.           3.        ]
+ [ 68.          72.           2.           2.        ]
+ [ 81.          83.           2.           2.        ]
+ [ 79.          85.           2.           2.        ]
+ [ 93.          94.           2.           2.        ]
+ [ 84.          87.           2.           2.        ]
+ [120.         128.           2.           2.        ]
+ [ 80.          92.           2.           2.        ]
+ [117.         118.           2.           2.        ]
+ [123.         175.           2.           3.        ]
+ [ 95.         124.           2.           2.        ]
+ [ 82.         136.           2.           2.        ]
+ [ 97.         174.           2.           3.        ]
+ [ 86.         137.           2.           2.        ]
+ [ 98.          99.           2.           2.        ]
+ [ 78.         135.           2.           2.        ]
+ [138.         140.           2.           2.        ]
+ [104.         105.           2.           2.        ]
+ [108.         110.           2.           2.        ]
+ [ 71.         145.           3.           3.        ]
+ [  3.         151.           3.           3.        ]
+ [152.         154.           3.           4.        ]
+ [ 49.         153.           3.           3.        ]
+ [155.         156.           3.           4.        ]
+ [ 25.          26.           3.           2.        ]
+ [ 34.         163.           3.           3.        ]
+ [ 64.         164.           3.           3.        ]
+ [ 73.         165.           3.           3.        ]
+ [167.         168.           3.           5.        ]
+ [ 60.          61.           3.           2.        ]
+ [170.         172.           3.           4.        ]
+ [122.         177.           3.           3.        ]
+ [100.         181.           3.           3.        ]
+ [139.         180.           3.           3.        ]
+ [106.         184.           3.           3.        ]
+ [111.         185.           3.           3.        ]
+ [171.         197.           3.25         6.        ]
+ [162.         192.           3.33333333   6.        ]
+ [169.         203.           3.33333333   8.        ]
+ [161.         191.           3.5          4.        ]
+ [166.         196.           3.5          4.        ]
+ [187.         189.           3.66666667   6.        ]
+ [ 74.         186.           4.           4.        ]
+ [ 11.         157.           4.           3.        ]
+ [ 35.          48.           4.           2.        ]
+ [ 14.          18.           4.           2.        ]
+ [ 40.          41.           4.           2.        ]
+ [ 52.         190.           4.           5.        ]
+ [ 20.         148.           4.           3.        ]
+ [ 88.         176.           4.           4.        ]
+ [119.         126.           4.           2.        ]
+ [127.         217.           4.           3.        ]
+ [130.         133.           4.           2.        ]
+ [101.         199.           4.           4.        ]
+ [ 89.          90.           4.           2.        ]
+ [141.         143.           4.           2.        ]
+ [144.         222.           4.           3.        ]
+ [107.         114.           4.           2.        ]
+ [160.         206.           4.08333333   7.        ]
+ [188.         208.           4.25        10.        ]
+ [146.         194.           4.33333333   5.        ]
+ [102.         220.           4.5          5.        ]
+ [159.         210.           4.66666667   5.        ]
+ [204.         214.           4.93333333  11.        ]
+ [ 42.         213.           5.           3.        ]
+ [125.         173.           5.           3.        ]
+ [103.         178.           5.           3.        ]
+ [183.         200.           5.           5.        ]
+ [ 19.         215.           5.33333333   4.        ]
+ [131.         218.           5.33333333   4.        ]
+ [129.         179.           5.33333333   4.        ]
+ [  0.         209.           5.5          5.        ]
+ [121.         237.           5.5          5.        ]
+ [205.         232.           5.58333333  11.        ]
+ [225.         229.           5.6         12.        ]
+ [201.         224.           5.66666667   5.        ]
+ [193.         230.           5.6969697   14.        ]
+ [147.         227.           5.7          7.        ]
+ [195.         226.           5.71        15.        ]
+ [ 29.          33.           6.           2.        ]
+ [ 51.         211.           6.           3.        ]
+ [ 24.          55.           6.           2.        ]
+ [ 91.         221.           6.           3.        ]
+ [182.         234.           6.           7.        ]
+ [142.         223.           6.           4.        ]
+ [115.         242.           6.           6.        ]
+ [132.         134.           6.           2.        ]
+ [109.         113.           6.           2.        ]
+ [212.         243.           6.14285714  16.        ]
+ [ 96.         240.           6.54545455  12.        ]
+ [198.         236.           6.66666667   7.        ]
+ [238.         244.           6.75714286  12.        ]
+ [249.         250.           6.76190476  10.        ]
+ [207.         241.           6.83333333  16.        ]
+ [ 31.          47.           7.           2.        ]
+ [216.         239.           7.           9.        ]
+ [233.         259.           7.13333333  13.        ]
+ [235.         258.           7.16666667  16.        ]
+ [231.         247.           7.33333333   6.        ]
+ [251.         263.           7.46153846  17.        ]
+ [257.         262.           7.8015873   16.        ]
+ [246.         265.           7.83333333   8.        ]
+ [ 54.         248.           8.           3.        ]
+ [116.         228.           8.           6.        ]
+ [202.         254.           8.           5.        ]
+ [252.         271.           8.8         11.        ]
+ [266.         270.           9.21568627  23.        ]
+ [255.         268.           9.40625     24.        ]
+ [260.         269.           9.4375      19.        ]
+ [261.         275.           9.55263158  21.        ]
+ [219.         267.           9.75        18.        ]
+ [ 13.          59.          10.           2.        ]
+ [264.         276.          10.61309524  37.        ]
+ [112.         272.          10.63636364  12.        ]
+ [256.         273.          10.6576087   35.        ]
+ [277.         281.          12.27539683  53.        ]
+ [274.         279.          13.33445946  61.        ]
+ [280.         282.          14.84119497  65.        ]
+ [253.         284.          16.37692308  67.        ]
+ [245.         283.          18.87759563  76.        ]
+ [278.         286.          26.67763158  78.        ]
+ [285.         287.          31.94096824 145.        ]]
+

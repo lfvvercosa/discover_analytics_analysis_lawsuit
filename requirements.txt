@@ -1,0 +1,14 @@
+boto3
+lightgbm
+matplotlib
+nltk
+numpy
+pandas
+pm4py
+scikit_learn
+scipy
+seaborn
+Unidecode
+python-Levenshtein
+weighted_levenshtein
+Levenshtein

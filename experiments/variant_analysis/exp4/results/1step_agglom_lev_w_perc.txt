@@ -1,0 +1,18 @@
+min_pts: 1
+weight_clus: 0
+std: 0.2
+k: 1
+best_wp: 0
+best_wn: 1
+best_ws: 0.5
+best_perc: 0.2
+Fit Markov Std: 0.9825467729390217
+ARI: 0.22685143368287944
+
+#### Best Config #### 
+min_pts: 1
+weight_clus: 0
+std: 0.2
+k: 1
+Fit Markov Std: 0.9825467729390217
+ARI: 0.22685143368287944
