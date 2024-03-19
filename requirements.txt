@@ -12,3 +12,4 @@ Unidecode
 python-Levenshtein
 weighted_levenshtein
 Levenshtein
+stringdist

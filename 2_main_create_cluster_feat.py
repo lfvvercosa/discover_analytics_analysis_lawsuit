@@ -693,7 +693,8 @@ def get_clustering_features(best_params,
                                None, 
                                gt, 
                                test_size, 
-                               random_seed)
+                               random_seed,
+                               'cat')
     
     X_train, X_test = X_train_[:,:-1], X_test_[:,:-1]
     y_train, y_test = X_train_[:,-1], X_test_[:,-1]
@@ -755,20 +756,20 @@ def run_with_clust_feat(df,
                                                 gt,
                                                 params_lgbm)
     
-    y_test, y_pred = get_model_predic(df_model_train, 
-                                      df_model_test,
-                                      gt,
-                                      params_lgbm)
+    # y_test, y_pred = get_model_predic(df_model_train, 
+    #                                   df_model_test,
+    #                                   gt,
+    #                                   params_lgbm)
 
     print('### test performance with cluster features ###')
-    print(mean_squared_error(y_test_clus, y_pred_clus))
-    print(mean_absolute_error(y_test_clus, y_pred_clus))
-    print(r2_score(y_test_clus, y_pred_clus))
+    print('mean squared error: ' + str(mean_squared_error(y_test_clus, y_pred_clus)))
+    print('mean absolute error: ' +  str(mean_absolute_error(y_test_clus, y_pred_clus)))
+    print('r2-score: ' + str(r2_score(y_test_clus, y_pred_clus)))
 
-    print('### test performance without cluster features ###')
-    print(mean_squared_error(y_test, y_pred))
-    print(mean_absolute_error(y_test, y_pred))
-    print(r2_score(y_test, y_pred))
+    # print('### test performance without cluster features ###')
+    # print(mean_squared_error(y_test, y_pred))
+    # print(mean_absolute_error(y_test, y_pred))
+    # print(r2_score(y_test, y_pred))
 
 
 if __name__ == "__main__":
@@ -786,7 +787,7 @@ if __name__ == "__main__":
     random_seed = 3
     splits_kfold = 4
     test_size = 0.2
-    is_merge_clus = True
+    is_merge_clus = False
     global_is_ohe = False
     global_temp_folder = ''
     best_params = None
@@ -797,6 +798,9 @@ if __name__ == "__main__":
     out_path = 'dataset/tribunais_trabalho/cluster_' + algorithm + '.csv'
 
     best_params = None
+
+    sys.argv.append(4)
+    sys.argv.append('actitrac')
 
     if not is_merge_clus:
         if len(sys.argv) > 1:

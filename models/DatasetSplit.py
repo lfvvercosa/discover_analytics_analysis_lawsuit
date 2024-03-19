@@ -39,8 +39,8 @@ class DatasetSplit():
         return df
 
 
-    def strat_train_test_split(self, df, bins, labels, target, test_size, seed):
-        df = self.gen_categories(df, bins, labels, target)
+    def strat_train_test_split(self, df, bins, labels, target, test_size, seed, name):
+        df = self.gen_categories(df, bins, labels, target, name)
 
         y_cat = df[['cat']].to_numpy()
 

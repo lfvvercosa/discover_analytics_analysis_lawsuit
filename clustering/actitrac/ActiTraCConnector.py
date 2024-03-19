@@ -91,8 +91,8 @@ class ActiTracConnector():
         self.clear_dir(saving_path)
 
         subprocess.call(['java', 
-                         '-Xms50g', 
-                         '-Xmx60g', 
+                         '-Xms15g', 
+                         '-Xmx20g', 
                          '-jar',
                          self.jar_path_train,
                          log_path,
