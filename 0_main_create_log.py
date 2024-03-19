@@ -10,7 +10,7 @@ from core import my_log_orchestrator
 if __name__ == "__main__":
     base_path = 'dataset/'
     court_type = 'tribunais_trabalho'
-    zip_file = court_type + 'tribunais_trabalho/justica_trabalho.zip'
+    zip_file = court_type + '/justica_trabalho.zip'
     # my_justice = 'TRIBUNAIS_TRABALHO'
     output_path = 'dataset/' + court_type
     level_magistrado = 1
