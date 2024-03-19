@@ -327,7 +327,7 @@ if __name__ == '__main__':
     params_lgbm['params']['boosting_type'] = 'dart'
     params_lgbm['params']['learning_rate'] = 0.2
     params_lgbm['params']['n_estimators'] = 600
-    params_lgbm['params']['importance_type'] = 'split'
+    params_lgbm['params']['importance_type'] = 'gain'
 
     if test_best_features:
         apply_best_features(df)
@@ -387,7 +387,7 @@ if __name__ == '__main__':
 
             # params = None
             params = {}
-            params['C'] = 128
+            params['C'] = 32
             params['kernel'] = 'rbf'
             params['epsilon'] = 0.1
 

@@ -22,9 +22,10 @@ This github project presents the code used for the paper submited to the journal
 
 - Step 6: Run <code> python3 5_main_correlation.py </code> to exhibit the Pearson and Spearman correlations between the dataset features and the duration ground truth
 
-- Step 7: In this step we run the machine learning algorithms to generate the time prediction results. Run:
+- Step 7: In this step we run the machine learning algorithms to generate the time prediction results. 
 
-    <code> python3 6_main_apply_models "['linear_reg','lgbm','svr']" </code> 
- 
-    to train and test the linear regression, DART and SVR models. Notice that we have made a modest parameter choice for increasing performance. However, they can be changed directly in the code to match the article configuration.
+    - Step 7.1: Run <code> python3 6_main_apply_models.py "['linear_reg','lgbm','svr']" </code> to train and test the linear regression, DART and SVR models. Notice that we have made a modest parameter choice for increasing performance. However, they can be changed directly in the code to match the article configuration.
+    - Step 7.2: Run <code> python3 6_main_apply_models.py "['lgbm']" discrete </code> to train and test the DART model and display the results in time bands
+
+
 
