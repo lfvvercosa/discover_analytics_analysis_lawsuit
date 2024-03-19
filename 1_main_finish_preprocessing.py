@@ -38,7 +38,7 @@ if __name__ == "__main__":
         'TRT23.xes',
         'TRT24.xes',
     ]
-    name = 'TRT_raw'
+    name = 'TRT'
     out_path = 'dataset/tribunais_trabalho/' + name + '.xes'
     DEBUG = True
     perc_act_start = 0.01

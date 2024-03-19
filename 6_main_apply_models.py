@@ -151,31 +151,7 @@ def apply_groups_with_best_model(df, gt):
     params_lgbm['params']['n_estimators'] = 600
     params_lgbm['params']['importance_type'] = 'split'
 
-    ### Get performance by group
-
-    # for group in features_group:
-    #     print('group: ' + group)
-    #     cols = features_group[group] + [gt]
-
-    #     params_and_results, df_feat_import = \
-    #                         lgbm.train_and_run_lgbm(df[cols], 
-    #                                                 gt, 
-    #                                                 [gt], 
-    #                                                 params_lgbm, 
-    #                                                 random_seed, 
-    #                                                 splits_kfold,
-    #                                                 number_cores,
-    #                                                 test_size)
-
-    #     print(params_and_results)
-    #     print(df_feat_import)
-
-    #     with open(out_results, 'a+') as f:
-    #         f.write('group: ' + group + '\n\n')
-    #         f.write(str(params_and_results) + '\n\n')
-    #         f.write('feature importance: \n\n')
-    #         f.write(str(df_feat_import) + '\n\n')
-
+    
     inc_groups = []
     groups_name = []
 
@@ -278,30 +254,25 @@ if __name__ == '__main__':
     gt = 'TEMPO_PROCESSUAL_TOTAL_DIAS'
     random_seed = 3
     splits_kfold = 10
-    number_cores = 15
+    number_cores = 4
     test_size = 0.2
-    dataset_path = 'dataset/tribunais_trabalho/dataset_model_v2.csv'
+    dataset_path = 'dataset/tribunais_trabalho/dataset_model.csv'
     test_best_features = False
     test_group_features = False
-    test_discrete = True
+    test_discrete = False
 
     if len(sys.argv) > 1:   
         list_algo = eval(sys.argv[1])
     else:
-        list_algo = ['lgbm','svr']
+        list_algo = ['lgbm']
 
     if len(sys.argv) > 2:
-        if sys.argv[2] == 'mini':
-            dataset_path = 'dataset/tribunais_trabalho/mini/dataset_model_v2.csv'
-
-
-    if len(sys.argv) > 3:
-        if sys.argv[3] == 'best_features':
-            test_best_features = True
-
-    if len(sys.argv) > 4:
         if sys.argv[4] == 'group_features':
             test_group_features = True
+        elif sys.argv[4] == 'best_features':
+            test_best_features = True
+        elif sys.argv[4] == 'discrete':
+            test_discrete = True
 
     df = pd.read_csv(dataset_path, sep='\t')
 
@@ -328,12 +299,6 @@ if __name__ == '__main__':
         'MOV_DECISAO_3',
         'MOV_AUDIENCIA_970',
         'ASSU__PARTES_E_PROCURADORES',
-        # 'ASSU_DIREITO_DO_TRABALHO',
-        # 'MOV_REDISTRIBUICAO_36',
-        # 'MOV_CONCLUSAO_51',
-        # 'MOV_TRANSITO_EM_JULGADO_848',
-        # 'MOV_RECEBIMENTO_115',
-
     ]
 
     df = df[[c for c in df.columns if c not in rem_cols]]
@@ -365,7 +330,6 @@ if __name__ == '__main__':
                                  test_size
                                  )
     
-    # params_lgbm = None
     params_lgbm = {'params':{}}
     params_lgbm['params']['boosting_type'] = 'dart'
     params_lgbm['params']['learning_rate'] = 0.2
@@ -423,29 +387,5 @@ if __name__ == '__main__':
                                                         test_size)
             print(best_params_model)
             df_import.to_csv('dataset/tribunais_trabalho/statistics/svr_feat_import.csv', sep='\t')
-
-        if 'ada' in list_algo:
-            if DEBUG:
-                print('#####################')
-                print('##### apply ADA #####')
-                print('#####################\n')
-
-            params = None
-            params = {}
-            params['C'] = 4096
-            params['kernel'] = 'rbf'
-            # params['gamma'] = 'scale'
-            params['epsilon'] = 0.1
-            # params['tol'] = 0.001
-
-            best_params_model = ada.train_and_run_ada(
-                                                    df, 
-                                                    gt, 
-                                                    [gt],
-                                                    params, 
-                                                    random_seed, 
-                                                    splits_kfold, 
-                                                    test_size
-                                                    )
-            print(best_params_model)
+  
     print('done!')

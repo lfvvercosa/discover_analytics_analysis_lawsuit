@@ -11,7 +11,7 @@ from core import my_create_features
 if __name__ == "__main__": 
     base_path = 'dataset/'
     input_path = 'dataset/tribunais_trabalho/dataset_raw.csv'
-    out_path = 'dataset/tribunais_trabalho/dataset_model_v2.csv'
+    out_path = 'dataset/tribunais_trabalho/dataset_model.csv'
     ngram = 1
     trunc_min = 0.02
     trunc_max = 0.02
