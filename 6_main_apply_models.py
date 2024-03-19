@@ -224,15 +224,21 @@ def apply_discrete_results(df, params_lgbm):
                                           average='weighted'
                                          )
 
-    df_test = df_results.copy()
-    df_test['cat_1_test'] = np.where(df_test['cat_y_test'] != 1, 0, 1)
-    df_test['cat_1_pred'] = np.where(df_test['cat_y_pred'] != 1, 0, 1)
-    confusion_mat_cat_0 = confusion_matrix(df_test['cat_1_test'], df_test['cat_1_pred'])
-    precision_cat_0 = confusion_mat_cat_0[1, 1] / \
-                     (confusion_mat_cat_0[1, 1] + confusion_mat_cat_0[0, 1])
-    print("Precision (cat_0):", precision_cat_0)
+    print('### Discrete Results ###')
+    print('Precision: ' + str(res[0]))
+    print('Recall: ' + str(res[1]))
+    print('F1: ' + str(res[2]))
 
-    print()
+
+    # df_test = df_results.copy()
+    # df_test['cat_1_test'] = np.where(df_test['cat_y_test'] != 1, 0, 1)
+    # df_test['cat_1_pred'] = np.where(df_test['cat_y_pred'] != 1, 0, 1)
+    # confusion_mat_cat_0 = confusion_matrix(df_test['cat_1_test'], df_test['cat_1_pred'])
+    # precision_cat_0 = confusion_mat_cat_0[1, 1] / \
+    #                  (confusion_mat_cat_0[1, 1] + confusion_mat_cat_0[0, 1])
+    # print("Precision (cat_0):", precision_cat_0)
+
+    print('### Confusion Matrix ###')
 
     confusion_mat = confusion_matrix(df_results['cat_y_test'], 
                                             df_results['cat_y_pred'])
@@ -362,13 +368,13 @@ if __name__ == '__main__':
             print('MAE_std: ' + str(params_and_results['training_perf']['MAE_std']))
             print('MSE_avg: ' + str(params_and_results['training_perf']['MSE_avg']))
             print('MSE_std: ' + str(params_and_results['training_perf']['MSE_std']))
-            print('\n\n')
+            print('\n')
 
             print('### Test Performance ###')
             print('R2: ' + str(params_and_results['test_perf']['R2']))
             print('MAE: ' + str(params_and_results['test_perf']['MAE']))
             print('MSE: ' + str(params_and_results['test_perf']['MSE']))
-            print('\n\n')
+            print('\n')
 
             print('### Feature Importance ###')
             print(df_import)
