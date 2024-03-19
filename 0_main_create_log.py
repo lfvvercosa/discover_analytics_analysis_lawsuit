@@ -10,23 +10,22 @@ from core import my_log_orchestrator
 if __name__ == "__main__":
     base_path = 'dataset/'
     court_type = 'tribunais_trabalho'
-    # zip_file = court_type + '/processos-trt15.zip'
+    zip_file = court_type + 'dataset/tribunais_trabalho/'
     # my_justice = 'TRIBUNAIS_TRABALHO'
     output_path = 'dataset/' + court_type
     level_magistrado = 1
     level_serventuario = 2
     level_type = 1
     percent_appear_mov = 0.5
-    # mandatory_mov = 848
     mandatory_mov = 246
-    # mandatory_type = 1106
+    # type is used to refer to process class
     mandatory_type = 158
     mandatory_type_level = 1
     is_map_movement = True
 
     # Unzip dataset 
-    # with zipfile.ZipFile(base_path + zip_file, 'r') as zip_ref:
-    #     zip_ref.extractall(path=base_path + court_type + '/')
+    with zipfile.ZipFile(base_path + zip_file, 'r') as zip_ref:
+        zip_ref.extractall(path=base_path + court_type + '/')
 
     df_code_subj = my_loader.load_df_subject(base_path)
     df_code_type = my_loader.load_df_classes(base_path)
@@ -34,15 +33,7 @@ if __name__ == "__main__":
 
     start_limit = 2020
     n_stds_outlier = 2
-
-    # trt_groups = {
-    #     'SE':['TRT1','TRT2','TRT3','TRT15','TRT17'],
-    #     'S':['TRT4','TRT9','TRT12'],
-    #     'NE':['TRT5','TRT6','TRT7','TRT13','TRT16','TRT19','TRT20','TRT21','TRT22'],
-    #     'N':['TRT8','TRT10','TRT11','TRT14'],
-    #     'CO':['TRT18','TRT23','TRT24'],
-
-    # }
+    
 
     trt_all = [
         'TRT1',
