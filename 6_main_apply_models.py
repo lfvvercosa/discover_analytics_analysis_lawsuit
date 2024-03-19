@@ -267,11 +267,11 @@ if __name__ == '__main__':
         list_algo = ['lgbm']
 
     if len(sys.argv) > 2:
-        if sys.argv[4] == 'group_features':
+        if sys.argv[2] == 'group_features':
             test_group_features = True
-        elif sys.argv[4] == 'best_features':
+        elif sys.argv[2] == 'best_features':
             test_best_features = True
-        elif sys.argv[4] == 'discrete':
+        elif sys.argv[2] == 'discrete':
             test_discrete = True
 
     df = pd.read_csv(dataset_path, sep='\t')
