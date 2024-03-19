@@ -13,24 +13,18 @@ This github project presents the code used for the paper submited to the journal
         * <code> gdown --fuzzy 'https://drive.google.com/file/d/1YbcG-7lv2HGX9KUSfCj_ekEcUi1JuarD/view?usp=sharing' </code>
         * <code> gdown --fuzzy 'https://drive.google.com/file/d/1Z47RjZ8t9YhFihzwozZxqIWUtTbSlZjf/view?usp=sharing' </code>
         * Run <code> python3 2_main_finish_preprocessing 4 actitrac False </code> to generate the feature refering to ActiTraC clustering
-        * Run 
     - Step 3.3: Run <code> python3 2_main_finish_preprocessing 4 kmeans False </code> to generate the feature refering to K-means clustering
     - Step 3.4: Run <code> python3 2_main_finish_preprocessing 4 kmeans True </code> to merge the cluster's files in 'dataset/tribunais_trabalho/cluster_feat_all.csv'
 
+- Step 4: Run <code> python3 3_main_create_dataset.py </code> to create the raw dataset
 
+- Step 5: Run <code> python3 4_main_process_dataset.py </code> to preprocess the raw dataset and create the model dataset
 
+- Step 6: Run <code> python3 5_main_correlation.py </code> to exhibit the Pearson and Spearman correlations between the dataset features and the duration ground truth
 
+- Step 7: In this step we run the machine learning algorithms to generate the time prediction results. Run:
 
-
-
-- Esse projeto contém todo o código necessário para executar os experimentos do artigo entitulado "O Uso da Mineração de Processos na Análise do Tempo das Movimentações Processuais: Métricas e Desafios à Celeridade Processual no Judiciário Brasileiro".
-
-- Passo 1: Instalar todas as bibliotecas respeitando o versionamento descrito no documento requirements  
-  <code> pip install -r requirements.txt </code>
-- Passo 2: Executar os quatro arquivos 'main' na ordem de sua numeração, isto é:  
-  1. 1_main_create_log.py
-  2. 2_main_create_dataset.py
-  3. 3_main_apply_models.py
-  4. 4_main_feat_import.py
-
+    <code> python3 6_main_apply_models "['linear_reg','lgbm','svr']" </code> 
+ 
+    to train and test the linear regression, DART and SVR models. Notice that we have made a modest parameter choice for increasing performance. However, they can be changed directly in the code to match the article configuration.
 

@@ -51,9 +51,6 @@ def run_svr(df,
     cols.append(gt)
     df = df[cols]
 
-    # X_train_, X_test_, y_train_, y_test_ = dataset_split.\
-    #     strat_train_test_split(df, None, None, gt, test_size, random_seed)
-
     X_train_, X_test_, y_train_, y_test_ = dataset_split.\
         train_test_split(df, gt, test_size, random_seed)
     
@@ -63,11 +60,6 @@ def run_svr(df,
             print('ker: ' + str(ker))
             for eps in epsilon:
                 print('eps: ' + str(eps))
-                
-                # skf = dataset_split.strat_kfold(X_train_,
-                #                                 y_train_,
-                #                                 splits, 
-                #                                 random_seed)
                 
                 skf = dataset_split.kfold(X_train_,
                                           y_train_,
@@ -79,8 +71,6 @@ def run_svr(df,
                 mae = []
 
                 for train_index, test_index in skf:
-                    # X_trainkf, X_validkf = X_train_[train_index,:-1], X_train_[test_index,:-1]
-                    # y_trainkf, y_validkf = X_train_[train_index,-1], X_train_[test_index,-1]
 
                     X_trainkf, X_validkf = X_train_[train_index], X_train_[test_index]
                     y_trainkf, y_validkf = y_train_[train_index], y_train_[test_index]
@@ -157,13 +147,13 @@ def run_svr(df,
     params_and_result['test_perf']['R2'] = r2_score(y_test, y_pred) 
 
 
-    import_result = permutation_importance(reg, X_train, y_train, n_repeats=10,
-                                           random_state=3)
+    # import_result = permutation_importance(reg, X_train, y_train, n_repeats=10,
+    #                                        random_state=3)
     
-    df_import['import_mean'] = import_result.importances_mean
-    df_import['import_std'] = import_result.importances_std
+    # df_import['import_mean'] = import_result.importances_mean
+    # df_import['import_std'] = import_result.importances_std
 
-    return params_and_result, df_import
+    return params_and_result
 
 
 def use_svr(X_train, y_train, X_test, best_params=None):

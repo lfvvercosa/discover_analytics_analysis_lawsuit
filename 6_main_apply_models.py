@@ -312,14 +312,7 @@ if __name__ == '__main__':
         print('### Total features: ' + str(len(df.columns) - 1))
     
 
-    if DEBUG:
-        print('#####################')
-        print('#### apply Naive ####')
-        print('#####################\n')
-
-    naive.run_naive(df, splits_kfold)    
-
-    if DEBUG:
+    if 'linear_reg' in list_algo:
         print('#############################')
         print('## apply Linear Regression ##')
         print('#############################\n')
@@ -369,11 +362,13 @@ if __name__ == '__main__':
             print('MAE_std: ' + str(params_and_results['training_perf']['MAE_std']))
             print('MSE_avg: ' + str(params_and_results['training_perf']['MSE_avg']))
             print('MSE_std: ' + str(params_and_results['training_perf']['MSE_std']))
+            print('\n\n')
 
             print('### Test Performance ###')
             print('R2: ' + str(params_and_results['test_perf']['R2']))
             print('MAE: ' + str(params_and_results['test_perf']['MAE']))
             print('MSE: ' + str(params_and_results['test_perf']['MSE']))
+            print('\n\n')
 
             print('### Feature Importance ###')
             print(df_import)
@@ -392,17 +387,33 @@ if __name__ == '__main__':
 
             # params = None
             params = {}
-            params['C'] = 4096
+            params['C'] = 128
             params['kernel'] = 'rbf'
             params['epsilon'] = 0.1
 
-            best_params_model, df_import = svr.run_svr(df.copy(), 
-                                                        gt, 
-                                                        params, 
-                                                        random_seed, 
-                                                        splits_kfold, 
-                                                        test_size)
-            print(best_params_model)
-            df_import.to_csv('dataset/tribunais_trabalho/statistics/svr_feat_import.csv', sep='\t')
+            best_params_model = svr.run_svr(df.copy(), 
+                                            gt, 
+                                            params, 
+                                            random_seed, 
+                                            splits_kfold, 
+                                            test_size)
+            
+            print('### SVR Results ###')
+            print('### Training Performance ###')
+            print('R2_avg: ' + str(params_and_results['training_perf']['R2_avg']))
+            print('R2_std: ' + str(params_and_results['training_perf']['R2_std']))
+            print('MAE_avg: ' + str(params_and_results['training_perf']['MAE_avg']))
+            print('MAE_std: ' + str(params_and_results['training_perf']['MAE_std']))
+            print('MSE_avg: ' + str(params_and_results['training_perf']['MSE_avg']))
+            print('MSE_std: ' + str(params_and_results['training_perf']['MSE_std']))
+            print('\n\n')
+
+            print('### Test Performance ###')
+            print('R2: ' + str(params_and_results['test_perf']['R2']))
+            print('MAE: ' + str(params_and_results['test_perf']['MAE']))
+            print('MSE: ' + str(params_and_results['test_perf']['MSE']))
+            print('\n\n')
+            
+            # print(best_params_model)
   
     print('done!')
