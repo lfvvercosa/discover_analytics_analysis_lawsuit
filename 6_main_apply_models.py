@@ -326,12 +326,7 @@ if __name__ == '__main__':
         linear.run_linear_regression(df.copy(), 
                                     splits_kfold,
                                     random_seed,
-                                    test_size
-                                       linear.run_linear_regression(df.copy(), 
-                                    splits_kfold,
-                                    random_seed,
-                                    test_size
-                                    ) )
+                                    test_size)
     
     params_lgbm = {'params':{}}
     params_lgbm['params']['boosting_type'] = 'dart'
