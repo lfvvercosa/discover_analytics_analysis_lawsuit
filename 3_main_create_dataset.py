@@ -32,10 +32,6 @@ if __name__ == "__main__":
 
     log = xes_importer.apply(log_path, variant=xes_importer.Variants.LINE_BY_LINE)
 
-    # Update log
-    # log._attributes['concept:name'] = 'TRT'
-    # pm4py.write_xes(log, log_path)
-
     df_log = convert_to_dataframe(log)
 
     # Create feature dataset

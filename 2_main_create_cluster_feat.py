@@ -788,7 +788,7 @@ if __name__ == "__main__":
     best_params = None
     n_clusters_params = [40]
 
-    log_path = 'dataset/tribunais_trabalho/TRT_micro.xes'
+    log_path = 'dataset/tribunais_trabalho/TRT.xes'
     dataset_path = 'dataset/tribunais_trabalho/dataset.csv'
 
     best_params = None
