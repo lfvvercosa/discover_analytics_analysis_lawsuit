@@ -361,7 +361,24 @@ if __name__ == '__main__':
                                                                     number_cores,
                                                                     test_size)
             
-            print(params_and_results)
+            print('### LGBM Results ###')
+            print('### Training Performance ###')
+            print('R2_avg: ' + str(params_and_results['training_perf']['R2_avg']))
+            print('R2_std: ' + str(params_and_results['training_perf']['R2_std']))
+            print('MAE_avg: ' + str(params_and_results['training_perf']['MAE_avg']))
+            print('MAE_std: ' + str(params_and_results['training_perf']['MAE_std']))
+            print('MSE_avg: ' + str(params_and_results['training_perf']['MSE_avg']))
+            print('MSE_std: ' + str(params_and_results['training_perf']['MSE_std']))
+
+            print('### Test Performance ###')
+            print('R2: ' + str(params_and_results['test_perf']['R2']))
+            print('MAE: ' + str(params_and_results['test_perf']['MAE']))
+            print('MSE: ' + str(params_and_results['test_perf']['MSE']))
+
+            print('### Feature Importance ###')
+            print(df_import)
+
+            # print(params_and_results)
             df_import.to_csv('temp/lgbm_feat_import.csv', sep='\t')
             
             print('### Feat Import ###')
