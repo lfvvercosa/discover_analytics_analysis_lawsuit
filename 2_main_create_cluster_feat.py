@@ -774,12 +774,7 @@ def run_with_clust_feat(df,
 
 if __name__ == "__main__":
     
-    # log_path = 'clustering/test/test_cluster_feat.xes'
-    # dataset_path = 'clustering/test/df_test_cluster_feat.csv'
-    # splits_kfold = 3
-    # test_size = 0.25
-    
-    algorithm = 'kmeans'
+    # algorithm = 'kmeans'
     gt = 'TEMPO_PROCESSUAL_TOTAL_DIAS'
     cashe = {}
     number_cores = 4
@@ -787,7 +782,7 @@ if __name__ == "__main__":
     random_seed = 3
     splits_kfold = 4
     test_size = 0.2
-    is_merge_clus = False
+    # is_merge_clus = False
     global_is_ohe = False
     global_temp_folder = ''
     best_params = None
@@ -795,24 +790,26 @@ if __name__ == "__main__":
 
     log_path = 'dataset/tribunais_trabalho/TRT_micro.xes'
     dataset_path = 'dataset/tribunais_trabalho/dataset.csv'
-    out_path = 'dataset/tribunais_trabalho/cluster_' + algorithm + '.csv'
 
     best_params = None
 
-    sys.argv.append(4)
-    sys.argv.append('actitrac')
+    if len(sys.argv) > 1:
+            number_cores = int(sys.argv[1])
+    else:
+        raise Exception('please provide number of cores to be used')
+    
+    if len(sys.argv) > 2:
+        algorithm = sys.argv[2]
+    else:
+        raise Exception('please provide clustering algorithm')
+    if len(sys.argv) > 3:
+        is_merge_clus = eval(sys.argv[3])
+    else:
+        raise Exception('please provide if you want to merge the clusters files')
+
+    out_path = 'dataset/tribunais_trabalho/cluster_' + algorithm + '.csv'
 
     if not is_merge_clus:
-        if len(sys.argv) > 1:
-            number_cores = int(sys.argv[1])
-        else:
-            raise Exception('please provide number of cores to be used')
-        
-        if len(sys.argv) > 2:
-            algorithm = sys.argv[2]
-        else:
-            raise Exception('please provide clustering algorithm')
-
         if algorithm == 'agglom':
             project_dir = get_dir_path()
             cash_path = project_dir + '/temp' + global_temp_folder + \
@@ -899,14 +896,6 @@ if __name__ == "__main__":
         
         df_main = df_main[[
             'case:concept:name',
-            # 'CASE:COURT:CODE',
-            # 'CLASSE_PROCESSUAL',
-            # 'MOV_CONCLUSAO_51',
-            # 'ASSU_RESCISAO_DO_CONTRATO_DE_TRABALHO',
-            # 'MOVEMENTS_COUNT',
-            # 'TOTAL_OFFICIAL',
-            # 'MOV_DESARQUIVAMENTO_893',
-            # 'TOTAL_MAGISTRATE',
             gt
         ]]
 
