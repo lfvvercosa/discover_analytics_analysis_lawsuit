@@ -13,10 +13,10 @@ from core import my_stats
 
 if __name__ == "__main__": 
     log_path = 'dataset/tribunais_trabalho/TRT.xes'
-    out_path = 'dataset/tribunais_trabalho/TRT_mini.xes'
-    frac = 0.1
+    out_path = 'dataset/tribunais_trabalho/TRT_micro.xes'
+    frac = 0.03
     # frac = 1
-    name = 'TRT - Mini'
+    name = 'TRT - Micro'
 
     print('Processing...')
 

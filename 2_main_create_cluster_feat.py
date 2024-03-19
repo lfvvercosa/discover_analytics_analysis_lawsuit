@@ -790,73 +790,83 @@ if __name__ == "__main__":
     global_is_ohe = False
     global_temp_folder = ''
     best_params = None
+    n_clusters_params = [40]
 
-    log_path = 'dataset/tribunais_trabalho/TRT.xes'
-    dataset_path = 'dataset/tribunais_trabalho/dataset_model_v2.csv'
-    out_path = 'dataset/tribunais_trabalho/TEST_cluster_' + algorithm + '.csv'
+    log_path = 'dataset/tribunais_trabalho/TRT_micro.xes'
+    dataset_path = 'dataset/tribunais_trabalho/dataset.csv'
+    out_path = 'dataset/tribunais_trabalho/cluster_' + algorithm + '.csv'
 
-    # best_params = {
-    #     'n_clusters':60,
-    #     'n_gram':1,
-    #     'min_max_perc':(0,1),
-    #     'kms_algorithm':'elkan',
-    # }
-
-    # best_params = {
-    #     'n_clusters': 30, 
-    #     'method': 'average', 
-    #     'max_size_perc': 0.2, 
-    #     'metric': 'weighted_levenshtein', 
-    #     'ins_del_weight': 1, 
-    #     'trans_weight': 1, 
-    #     'subst_weight': 4, 
-    #     'cash_path': '/home/lfvv/projects/analysis_labor_lawsuits/temp1/agglom/'
-    #     # 'cash_path': '/home/vercosa/git/analysis_labor_lawsuits/temp2/agglom/'
-    # }
-
-    best_params = {
-        'n_clusters': 50, 
-        'target_fit': 1, 
-        'is_greedy': True, 
-        'dist_greed': 0.025, 
-        'min_clus_size': 0.02, 
-        'heu_miner_long_dist': True, 
-        'include_external': False,
-        'heu_miner_threshold': 0.09, 
-        'heu_miner_rel_best_thrs': 0.005, 
-        'heu_miner_and_thrs': 0.01, 
-        # 'heu_miner_threshold': 0.000009, 
-        # 'heu_miner_rel_best_thrs': 0.06, 
-        # 'heu_miner_and_thrs': 0.0001, 
-        'saving_path_train': '/home/lfvv/projects/analysis_labor_lawsuits/temp1/actitrac/train/results/',
-        'saving_path_valid': '/home/lfvv/projects/analysis_labor_lawsuits/temp1/actitrac/valid/results/',
-        'log_path_train': '/home/lfvv/projects/analysis_labor_lawsuits/temp1/actitrac/train/log_train.xes', 
-        'log_path_valid': '/home/lfvv/projects/analysis_labor_lawsuits/temp1/actitrac/valid/log_valid.xes'
-        # 'saving_path_train': '/home/ubuntu/analysis_labor_lawsuits/temp1/actitrac/train/results/',
-        # 'saving_path_valid': '/home/ubuntu/analysis_labor_lawsuits/temp1/actitrac/valid/results/',
-        # 'log_path_train': '/home/ubuntu/analysis_labor_lawsuits/temp1/actitrac/train/log_train.xes',
-        # 'log_path_valid': '/home/ubuntu/analysis_labor_lawsuits/temp1/actitrac/valid/log_valid.xes',
-    }
-
-    # best_params = None
-
-    
+    best_params = None
 
     if not is_merge_clus:
         if len(sys.argv) > 1:
             number_cores = int(sys.argv[1])
+        else:
+            raise Exception('please provide number of cores to be used')
         
         if len(sys.argv) > 2:
             algorithm = sys.argv[2]
-
-        if len(sys.argv) > 3:
-            n_clusters_params = eval(sys.argv[3])
         else:
-            # n_clusters_params = [20, 30, 40, 50]   
-            n_clusters_params = [40, 50, 60]
+            raise Exception('please provide clustering algorithm')
 
-        if len(sys.argv) > 4:
-            global_temp_folder = sys.argv[4]
+        if algorithm == 'agglom':
+            project_dir = get_dir_path()
+            cash_path = project_dir + '/temp' + global_temp_folder + \
+                                      '/agglom/'
+            
+            if not os.path.exists(cash_path):
+                os.makedirs(cash_path)
+    
+            best_params = {
+                'n_clusters': 40, 
+                'method': 'average', 
+                'max_size_perc': 0.2, 
+                'metric': 'weighted_levenshtein', 
+                'ins_del_weight': 1, 
+                'trans_weight': 1, 
+                'subst_weight': 4, 
+                'cash_path': cash_path
+            }
+
+        elif algorithm == 'kmeans':
+            best_params = {
+                'n_clusters':60,
+                'n_gram':1,
+                'min_max_perc':(0,1),
+                'kms_algorithm':'elkan',
+            }
+
+        elif algorithm == 'actitrac':
+            project_dir = get_dir_path()
+            cash_path = project_dir + '/temp' + global_temp_folder + \
+                                      '/actitrac/'
+            sav_path_train = cash_path + 'train/results/'
+            sav_path_valid = cash_path + 'valid/results/'
+            log_path_train = cash_path + 'train/log_train.xes'
+            log_path_valid = cash_path + 'valid/log_valid.xes'
+
+            if not os.path.exists(sav_path_train):
+                os.makedirs(sav_path_train)
+
+            if not os.path.exists(sav_path_valid):
+                os.makedirs(sav_path_valid)
+
+            best_params = {
+                'n_clusters': 25, 
+                'target_fit': 1, 
+                'is_greedy': True, 
+                'dist_greed': 0.025, 
+                'min_clus_size': 0.02, 
+                'heu_miner_long_dist': True, 
+                'include_external': False,
+                'heu_miner_threshold': 0.09, 
+                'heu_miner_rel_best_thrs': 0.005, 
+                'heu_miner_and_thrs': 0.01, 
+                'saving_path_train': sav_path_train,
+                'saving_path_valid': sav_path_valid,
+                'log_path_train': log_path_train,
+                'log_path_valid': log_path_valid,
+            }
 
         best_mse = float('inf')
         best_r2 = float('-inf')
@@ -885,24 +895,18 @@ if __name__ == "__main__":
         
         df_main = df_main[[
             'case:concept:name',
-            'CASE:COURT:CODE',
-            'CLASSE_PROCESSUAL',
-            'MOV_CONCLUSAO_51',
-            'ASSU_RESCISAO_DO_CONTRATO_DE_TRABALHO',
-            'MOVEMENTS_COUNT',
-            'TOTAL_OFFICIAL',
-            'MOV_DESARQUIVAMENTO_893',
-            'TOTAL_MAGISTRATE',
+            # 'CASE:COURT:CODE',
+            # 'CLASSE_PROCESSUAL',
+            # 'MOV_CONCLUSAO_51',
+            # 'ASSU_RESCISAO_DO_CONTRATO_DE_TRABALHO',
+            # 'MOVEMENTS_COUNT',
+            # 'TOTAL_OFFICIAL',
+            # 'MOV_DESARQUIVAMENTO_893',
+            # 'TOTAL_MAGISTRATE',
             gt
         ]]
 
         print('df_main size: ' + str(len(df_main.index)))
-        
-        # df = df[[
-        #          'case:concept:name',
-        #          'feat1',
-        #          gt
-        # ]]
 
         start = time.time()
 
