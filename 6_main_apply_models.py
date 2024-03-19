@@ -323,11 +323,15 @@ if __name__ == '__main__':
         print('## apply Linear Regression ##')
         print('#############################\n')
 
-    linear.run_linear_regression(df.copy(), 
-                                 splits_kfold,
-                                 random_seed,
-                                 test_size
-                                 )
+        linear.run_linear_regression(df.copy(), 
+                                    splits_kfold,
+                                    random_seed,
+                                    test_size
+                                       linear.run_linear_regression(df.copy(), 
+                                    splits_kfold,
+                                    random_seed,
+                                    test_size
+                                    ) )
     
     params_lgbm = {'params':{}}
     params_lgbm['params']['boosting_type'] = 'dart'
@@ -397,12 +401,12 @@ if __name__ == '__main__':
             params['kernel'] = 'rbf'
             params['epsilon'] = 0.1
 
-            best_params_model = svr.run_svr(df.copy(), 
-                                            gt, 
-                                            params, 
-                                            random_seed, 
-                                            splits_kfold, 
-                                            test_size)
+            params_and_results = svr.run_svr(df.copy(), 
+                                             gt, 
+                                             params, 
+                                             random_seed, 
+                                             splits_kfold, 
+                                             test_size)
             
             print('### SVR Results ###')
             print('### Training Performance ###')
