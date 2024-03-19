@@ -332,7 +332,7 @@ if __name__ == '__main__':
     params_lgbm = {'params':{}}
     params_lgbm['params']['boosting_type'] = 'dart'
     params_lgbm['params']['learning_rate'] = 0.2
-    params_lgbm['params']['n_estimators'] = 600
+    params_lgbm['params']['n_estimators'] = 300
     params_lgbm['params']['importance_type'] = 'gain'
 
     if test_best_features:
@@ -393,7 +393,7 @@ if __name__ == '__main__':
 
             # params = None
             params = {}
-            params['C'] = 32
+            params['C'] = 8
             params['kernel'] = 'rbf'
             params['epsilon'] = 0.1
 
