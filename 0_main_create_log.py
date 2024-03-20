@@ -23,6 +23,8 @@ if __name__ == "__main__":
     mandatory_type_level = 1
     is_map_movement = True
 
+    print('Extracting zip..')
+
     # Unzip dataset 
     with zipfile.ZipFile(base_path + zip_file, 'r') as zip_ref:
         zip_ref.extractall(path=base_path + court_type + '/')

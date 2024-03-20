@@ -23,7 +23,9 @@ from core.my_create_features import apply_one_hot_encoder
 from core.my_create_features import rename_clus_col
 from core.my_create_features import map_infrequent
 from core.my_utils import equalize_dfs
+from core import my_utils
 from models.DatasetSplit import DatasetSplit
+from pm4py import convert_to_dataframe
 
 
 def process_dfs_clus(df_clus, df_clus_valid, col, thres):
@@ -772,6 +774,16 @@ def run_with_clust_feat(df,
     # print(r2_score(y_test, y_pred))
 
 
+def get_base_dataset(log):
+    df_log = convert_to_dataframe(log)
+    df_time = my_utils.get_trace_time(df_log)
+    df_time = df_time.rename(columns={'total_time':'TEMPO_PROCESSUAL_TOTAL_DIAS'})
+    
+
+    return df_time.reset_index()
+
+
+
 if __name__ == "__main__":
     
     # algorithm = 'kmeans'
@@ -788,10 +800,14 @@ if __name__ == "__main__":
     best_params = None
     n_clusters_params = [40]
 
-    log_path = 'dataset/tribunais_trabalho/TRT.xes'
+    log_path = 'dataset/tribunais_trabalho/TRT_micro.xes'
     dataset_path = 'dataset/tribunais_trabalho/dataset.csv'
 
     best_params = None
+
+    sys.argv.append(4)
+    sys.argv.append('agglom')
+    sys.argv.append('False')
 
     if len(sys.argv) > 1:
             number_cores = int(sys.argv[1])
@@ -878,11 +894,12 @@ if __name__ == "__main__":
         params_lgbm_main['learning_rate'] = 0.1
         params_lgbm_main['n_estimators'] = 300
 
-        df_main = pd.read_csv(dataset_path, sep='\t')
-        df_main['case:concept:name'] = df_main['case:concept:name'].astype(str)
-        
         log = xes_importer.apply(log_path, 
                                 variant=xes_importer.Variants.LINE_BY_LINE)
+        
+        df_main = get_base_dataset(log)
+        df_main['case:concept:name'] = df_main['case:concept:name'].astype(str)
+        
         df_log_main = convert_to_dataframe(log)
         df_log_main = df_log_main.sort_values(['case:concept:name','time:timestamp'])
         
