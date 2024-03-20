@@ -34,6 +34,8 @@ if __name__ == "__main__":
 
     df_log = convert_to_dataframe(log)
 
+    print('creating dataset...')
+
     # Create feature dataset
     df_feat = my_create_features.create_features(df_log,
                                                  df_code_subj,

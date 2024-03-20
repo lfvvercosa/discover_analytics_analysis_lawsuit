@@ -2,10 +2,12 @@
 
 This github project presents the code used for the paper submited to the journal Discover Analytics in the collection "Process Mining and Predictive Business Process Monitoring". In the following, we present the necessary steps to run this code.
  
-- Step 1: Install all required libraries using <code> pip3 install -r requirements.txt </code>
+- Step 0: Clone this project <code> git clone git@github.com:lfvvercosa/discover_analytics_analysis_lawsuit.git </code>
 
-- Step 2: Download the xes file named 'TRT_raw.xes' available in 'https://data.4tu.nl/datasets/fcdc27b9-44fd-476f-9a2d-1774e96e505f/3'. Place it inside dataset/tribunais_trabalho/ directory.
-    - Alternatively, you can create the downloaded file by downloading the zip file named 'justica_trabalho' available in 'https://data.4tu.nl/datasets/fcdc27b9-44fd-476f-9a2d-1774e96e505f/2' and running the event log creation code  <code> python3 0_main_create_log.py  </code>, followed by <code> python3 1_main_finish_preprocessing  </code>. This may take a while.
+- Step 1: Once inside the project root path, install all required libraries using <code> pip3 install -r requirements.txt </code>
+
+- Step 2: Download the xes file named 'TRT_raw.xes' available in 'https://www.kaggle.com/datasets/lfvvercosa/brazilian-justice-processes'. Place it inside dataset/tribunais_trabalho/ directory.
+    - Alternatively, you can create the downloaded file by downloading the zip file named 'justica_trabalho' available in the same url, placing it inside dataset/tribunais_trabalho/ directory and running the event log creation code  <code> python3 0_main_create_log.py  </code>, followed by <code> python3 1_main_finish_preprocessing  </code>. This may take a while.
 
 - Step 3: The clustering features are already available at 'dataset/tribunais_trabalho/cluster_feat_all.csv'. However, it is also possible to generate them by running the following codes. If you do not wish to manually generate them, proceed to the next step.
     - Step 3.1: Run <code> python3 2_main_finish_preprocessing 4 agglom False </code> to generate the feature refering to agglomerative clustering

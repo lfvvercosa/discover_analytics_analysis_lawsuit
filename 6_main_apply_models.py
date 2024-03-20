@@ -411,13 +411,13 @@ if __name__ == '__main__':
             print('MAE_std: ' + str(params_and_results['training_perf']['MAE_std']))
             print('MSE_avg: ' + str(params_and_results['training_perf']['MSE_avg']))
             print('MSE_std: ' + str(params_and_results['training_perf']['MSE_std']))
-            print('\n\n')
+            print('\n')
 
             print('### Test Performance ###')
             print('R2: ' + str(params_and_results['test_perf']['R2']))
             print('MAE: ' + str(params_and_results['test_perf']['MAE']))
             print('MSE: ' + str(params_and_results['test_perf']['MSE']))
-            print('\n\n')
+            print('\n')
             
             # print(best_params_model)
   
