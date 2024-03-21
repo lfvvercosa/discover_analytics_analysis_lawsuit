@@ -874,7 +874,7 @@ if __name__ == "__main__":
 
             best_params = {
                 'n_clusters': 25, 
-                'target_fit': 1, 
+                'target_fit': 0.8, 
                 'is_greedy': True, 
                 'dist_greed': 0.025, 
                 'min_clus_size': 0.02, 
