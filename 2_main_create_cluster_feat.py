@@ -822,7 +822,7 @@ if __name__ == "__main__":
         raise Exception('please provide if you want to merge the clusters files')
     
     if len(sys.argv) > 4:
-        max_java_heap_actitrac = eval(sys.argv[4])
+        max_java_heap_actitrac = str(sys.argv[4])
     else:
         max_java_heap_actitrac = '10g'
 
