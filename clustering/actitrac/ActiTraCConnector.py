@@ -29,7 +29,7 @@ class ActiTracConnector():
     heu_miner_rel_best_thrs = None
     heu_miner_and_thrs = None
     include_external = None
-
+    max_java_heap_actitrac = None
 
     def __init__(self, 
                  is_greedy,
@@ -42,7 +42,8 @@ class ActiTracConnector():
                  heu_miner_and_thrs,
                  include_external,
                  jar_path_train='temp/actitrac/actitrac.jar',
-                 jar_path_valid='temp/actitrac/actitrac_valid.jar'):
+                 jar_path_valid='temp/actitrac/actitrac_valid.jar',
+                 max_java_heap_actitrac='10g'):
         
         self.dist_greed = dist_greed
         self.target_fit = target_fit
@@ -56,6 +57,7 @@ class ActiTracConnector():
 
         self.jar_path_train = jar_path_train
         self.jar_path_valid = jar_path_valid
+        self.max_java_heap_actitrac = max_java_heap_actitrac
 
     
     def clear_dir(self, dir):
@@ -91,8 +93,8 @@ class ActiTracConnector():
         self.clear_dir(saving_path)
 
         subprocess.call(['java', 
-                         '-Xms15g', 
-                         '-Xmx20g', 
+                         '-Xms'+self.max_java_heap_actitrac, 
+                         '-Xmx'+self.max_java_heap_actitrac, 
                          '-jar',
                          self.jar_path_train,
                          log_path,

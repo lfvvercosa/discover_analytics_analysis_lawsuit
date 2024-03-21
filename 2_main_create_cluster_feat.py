@@ -164,6 +164,7 @@ def obtain_cluster_feat(algorithm,
                         config['heu_miner_rel_best_thrs'],
                         config['heu_miner_and_thrs'],
                         config['include_external'],
+                        max_java_heap_actitrac=max_java_heap_actitrac
                     )
         
         technique.remove_file_if_exists(config['log_path_train'])
@@ -814,10 +815,17 @@ if __name__ == "__main__":
         algorithm = sys.argv[2]
     else:
         raise Exception('please provide clustering algorithm')
+    
     if len(sys.argv) > 3:
         is_merge_clus = eval(sys.argv[3])
     else:
         raise Exception('please provide if you want to merge the clusters files')
+    
+    if len(sys.argv) > 4:
+        max_java_heap_actitrac = eval(sys.argv[4])
+    else:
+        max_java_heap_actitrac = '10g'
+
 
     out_path = 'dataset/tribunais_trabalho/cluster_' + algorithm + '.csv'
 

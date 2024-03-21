@@ -1,6 +1,6 @@
 # Investigation of Lawsuit Process Duration: A Machine Learning and Process Mining Approach
 
-This github project presents the code used for the paper submited to the journal Discover Analytics in the collection "Process Mining and Predictive Business Process Monitoring". In the following, we present the necessary steps to run this code.
+This github project presents the code used for the paper submited to the journal Discover Analytics in the collection "Process Mining and Predictive Business Process Monitoring". In the following, we present the necessary steps to run this code in Linux (adaptations may be required to run in Windows or Mac).
  
 - Step 0: Clone this project <code> git clone https://github.com/lfvvercosa/discover_analytics_analysis_lawsuit.git </code>
 
@@ -11,10 +11,14 @@ This github project presents the code used for the paper submited to the journal
 
 - Step 3: The clustering features are already available at 'dataset/tribunais_trabalho/cluster_feat_all.csv'. However, it is also possible to generate them by running the following codes. If you do not wish to manually generate them, proceed to the next step.
     - Step 3.1: Run <code> python3 2_main_create_cluster_feat.py 4 agglom False </code> to generate the feature refering to agglomerative clustering
-    - Step 3.2: Download actitrac jars from google drive 
-        * <code> python3 -m gdown --fuzzy 'https://drive.google.com/file/d/1YbcG-7lv2HGX9KUSfCj_ekEcUi1JuarD/view?usp=sharing' </code> or in some cases only <code> gdown --fuzzy 'https://drive.google.com/file/d/1YbcG-7lv2HGX9KUSfCj_ekEcUi1JuarD/view?usp=sharing' </code>
-        * <code> python3 -m gdown --fuzzy 'https://drive.google.com/file/d/1Z47RjZ8t9YhFihzwozZxqIWUtTbSlZjf/view?usp=sharing' </code> or in some cases only <code> gdown --fuzzy 'https://drive.google.com/file/d/1Z47RjZ8t9YhFihzwozZxqIWUtTbSlZjf/view?usp=sharing' </code>
-        * Run <code> python3 2_main_create_cluster_feat.py 4 actitrac False </code> to generate the feature refering to ActiTraC clustering
+    - Step 3.2: Run ActiTraC clustering
+        * Download jars from google drive
+            * <code> python3 -m gdown --fuzzy 'https://drive.google.com/file/d/1YbcG-7lv2HGX9KUSfCj_ekEcUi1JuarD/view?usp=sharing' </code> or in some cases only <code> gdown --fuzzy 'https://drive.google.com/file/d/1YbcG-7lv2HGX9KUSfCj_ekEcUi1JuarD/view?usp=sharing' </code>
+            * <code> python3 -m gdown --fuzzy 'https://drive.google.com/file/d/1Z47RjZ8t9YhFihzwozZxqIWUtTbSlZjf/view?usp=sharing' </code> or in some cases only <code> gdown --fuzzy 'https://drive.google.com/file/d/1Z47RjZ8t9YhFihzwozZxqIWUtTbSlZjf/view?usp=sharing' </code>
+            * Place the download files inside the directory temp/actitrac/
+        * Install java 8 with <code>sudo apt install openjdk-8-jdk </code>
+
+        * Run <code> python3 2_main_create_cluster_feat.py 4 actitrac False 50g </code> to generate the feature refering to ActiTraC clustering
     - Step 3.3: Run <code> python3 2_main_create_cluster_feat.py 4 kmeans False </code> to generate the feature refering to K-means clustering
     - Step 3.4: Run <code> python3 2_main_create_cluster_feat.py 4 kmeans True </code> to merge the cluster's files in 'dataset/tribunais_trabalho/cluster_feat_all.csv'
 
